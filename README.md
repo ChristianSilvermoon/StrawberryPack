@@ -12,6 +12,9 @@ A number of things, here's a list
 - Arrows shatter glass panes and flower pots!
 (can be toggled off with `/function strawberry:gamerule/arrows_shatter/false` for those that don't want that!)
 
+- Hot Tools!
+Fire Aspect or the appropriate Golden Tool (Because gold needs a little love) will drop most items in their smelted states (unless you have silk touch). This means digging up sand with a Fire Aspect Sword or Golden Shovel will drop *glass*.
+
 ### Improves Vanilla Recipes
 
 - Stairs give you **8 instead of 4**.
