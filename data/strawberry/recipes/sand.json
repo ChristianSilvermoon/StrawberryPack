@@ -2,7 +2,7 @@
     "type": "crafting_shapeless",
     "group": "sand",
     "ingredients": [{
-            "item": "minecraft:wooden_pickaxe"
+            "tag": "strawberry:pickaxe"
         },
         {
             "item": "minecraft:gravel"

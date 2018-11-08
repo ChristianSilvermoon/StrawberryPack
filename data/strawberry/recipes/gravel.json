@@ -1,7 +1,7 @@
 {
     "type": "crafting_shapeless",
     "ingredients": [{
-            "item": "minecraft:wooden_pickaxe"
+            "tag": "strawberry:pickaxe"
         },
         {
             "item": "minecraft:cobblestone"

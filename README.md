@@ -22,9 +22,9 @@ A number of things, here's a list
 - **1x Coal** can be crafted with 1 charcoal. Great for compression!
 
 
-- **8x Clay Blocks** can be crafted with 4 dirt, 4 sand, and 1 water bucket
+- **8x Clay Blocks** can be crafted with 4 dirt, 4 sand, and 1 water bucket.
 
-- **8x Grass Blocks** can be crafted with 8 dirt and 1 bone meal
+- **8x Grass Blocks** can be crafted with 8 dirt and 1 bone meal.
 
 - **8x Gravel** can be crafted with 8 cobblestone and a pickaxe. Makes gravel renewable, gives a use to your old pickaxes.
 
@@ -36,14 +36,16 @@ A number of things, here's a list
 
 - **4x Leather** can be crafted with 8 rotten flesh and 1 glow stone dust. Rotten Flesh to leather is cool, but let's keep it balanced.
 
-- **1x Saddle** can be crafted with 3 leather, 2 tripwrite hooks, and 1 string
+- **1x Saddle** can be crafted with 3 leather, 2 tripwrite hooks, and 1 string.
 
-- **8x Sand** can be crafted with 8 red sand and 1 white dye
+- **8x Sand** can be crafted with 8 red sand and 1 white dye.
 
-- **8x Sand** can be crafted with 8 gravel and 1 pickaxe
+- **8x Sand** can be crafted with 8 gravel and 1 pickaxe.
 
-- **1x Stone** can be made by smelting 1 gravel
+- **1x Stone** can be made by smelting 1 gravel.
 
-- **9x Netherwart** can be crafted with 1 Netherwart Block
+- **2x Gun Powder** can be crafted with 1 tnt.
 
-- **4x Quartz** can be crafted with 1 Quartz Block
+- **9x Netherwart** can be crafted with 1 Netherwart Block.
+
+- **4x Quartz** can be crafted with 1 Quartz Block.
