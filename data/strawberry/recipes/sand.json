@@ -1,0 +1,36 @@
+{
+    "type": "crafting_shapeless",
+    "group": "sand",
+    "ingredients": [{
+            "item": "minecraft:wooden_pickaxe"
+        },
+        {
+            "item": "minecraft:gravel"
+        },
+        {
+            "item": "minecraft:gravel"
+        },
+        {
+            "item": "minecraft:gravel"
+        },
+        {
+            "item": "minecraft:gravel"
+        },
+        {
+            "item": "minecraft:gravel"
+        },
+        {
+            "item": "minecraft:gravel"
+        },
+        {
+            "item": "minecraft:gravel"
+        },
+        {
+            "item": "minecraft:gravel"
+        }
+    ],
+    "result": {
+        "item": "minecraft:sand",
+        "count": 8
+    }
+}
