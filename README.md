@@ -7,6 +7,11 @@ Than this, is Strawberry
 ## What's it do?
 A number of things, here's a list
 
+### Adds New Features
+
+- Arrows shatter glass panes and flower pots!
+(can be toggled off with `/function strawberry:gamerule/arrows_shatter/false` for those that don't want that!)
+
 ### Improves Vanilla Recipes
 
 - Stairs give you **8 instead of 4**.
@@ -15,7 +20,7 @@ A number of things, here's a list
 
 - Smelting logs yields **coal instead of charcoal**. Why can't you make charcoal blocks?
 
-### Adds Some New Ones
+### Adds Some New Recipes
 
 - **4x Arrows** can be crafted with iron nuggets in place of flint.
 
