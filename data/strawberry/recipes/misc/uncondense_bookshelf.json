@@ -1,0 +1,12 @@
+{
+    "type": "crafting_shapeless",
+	"group": "book",
+    "ingredients": [{
+            "item": "minecraft:bookshelf"
+        }
+	],
+    "result": {
+        "item": "minecraft:book",
+        "count": 9
+    }
+}
