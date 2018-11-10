@@ -1,0 +1,36 @@
+{
+    "parent": "strawberry:recipes/root",
+    "rewards": {
+        "recipes": [
+			"strawberry:dye/red_sand_to_sand"
+        ]
+    },
+    "criteria": {
+        "has_red_sand": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:red_sand"
+                    }
+                ]
+            }
+        },
+		"has_white_dye": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:white_dye"
+					}
+				]
+			}
+		}
+	},
+    "requirements": [
+        [
+            "has_red_sand",
+			"has_white_dye"
+        ]
+    ]
+}

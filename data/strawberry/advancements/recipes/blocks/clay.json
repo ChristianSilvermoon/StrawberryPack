@@ -1,0 +1,47 @@
+{
+    "parent": "strawberry:recipes/root",
+    "rewards": {
+        "recipes": [
+			"strawberry:blocks/clay"
+        ]
+    },
+    "criteria": {
+        "has_dirt": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:dirt"
+                    }
+                ]
+            }
+        },
+		"has_water": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:water_bucket"
+					}
+				]
+			}
+		},
+		"has_sand": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:sand"
+					}
+				]
+			}
+		}
+	},
+    "requirements": [
+        [
+            "has_dirt",
+			"has_sand",
+			"has_water"
+        ]
+    ]
+}

@@ -1,0 +1,25 @@
+{
+    "parent": "strawberry:recipes/root",
+    "rewards": {
+        "recipes": [
+			"strawberry:dye/coal_to_dye"
+        ]
+    },
+    "criteria": {
+        "has_coal": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:coal"
+                    }
+                ]
+            }
+        }
+	},
+    "requirements": [
+        [
+            "has_coal"
+        ]
+    ]
+}

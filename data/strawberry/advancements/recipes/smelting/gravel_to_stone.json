@@ -1,0 +1,25 @@
+{
+    "parent": "strawberry:recipes/root",
+    "rewards": {
+        "recipes": [
+			"strawberry:smelting/gravel_to_stone"
+        ]
+    },
+    "criteria": {
+        "has_gravel": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:gravel"
+                    }
+                ]
+            }
+        }
+	},
+    "requirements": [
+        [
+            "has_gravel"
+        ]
+    ]
+}

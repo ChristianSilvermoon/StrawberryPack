@@ -1,0 +1,25 @@
+{
+    "parent": "strawberry:recipes/root",
+    "rewards": {
+        "recipes": [
+			"strawberry:misc/tnt_refund"
+        ]
+    },
+    "criteria": {
+        "has_tnt": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:tnt"
+                    }
+                ]
+            }
+        }
+	},
+    "requirements": [
+        [
+            "has_tnt"
+        ]
+    ]
+}
