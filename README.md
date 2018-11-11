@@ -1,11 +1,11 @@
 # Strawberry Pack
 
-If Regular is Vanilla
-and Modded is Chocolate
-Than this, is Strawberry
+If Regular is Vanilla and Modded is Chocolate, then is Strawberry
 
 ## What's it do?
 A number of things, here's a list
+
+For full details, check out the Repository's Wiki.
 
 ### Adds New Features
 
