@@ -1,1 +1,1 @@
-scoreboard players set arrowShatter spgm 0
+scoreboard players set arrowShatter spvar 0
