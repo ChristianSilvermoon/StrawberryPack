@@ -1,0 +1,155 @@
+{
+    "parent": "strawberry:main/tunes",
+    "display": {
+        "icon": {
+            "item": "minecraft:music_disc_wait"
+        },
+        "title": {"text":"Vinylicious"},
+        "description": [
+			{"text":"Collect All Music Discs"}
+		],
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+	"rewards": {
+			"experience": 100
+	},
+    "criteria": {
+		"has_13": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:music_disc_13"
+					}
+				]
+			}
+		},
+		"has_cat": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:music_disc_cat"
+					}
+				]
+			}
+		},
+		"has_blocks": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:music_disc_blocks"
+					}
+				]
+			}
+		},
+		"has_chirp": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:music_disc_chirp"
+					}
+				]
+			}
+		},
+		"has_far": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:music_disc_far"
+					}
+				]
+			}
+		},
+		"has_mall": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:music_disc_mall"
+					}
+				]
+			}
+		},
+		"has_mellohi": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:music_disc_mellohi"
+					}
+				]
+			}
+		},
+		"has_stal": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:music_disc_stal"
+					}
+				]
+			}
+		},
+		"has_strad": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:music_disc_strad"
+					}
+				]
+			}
+		},
+		"has_ward": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:music_disc_ward"
+					}
+				]
+			}
+		},
+		"has_11": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:music_disc_11"
+					}
+				]
+			}
+		},
+		"has_wait": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:music_disc_wait"
+					}
+				]
+			}
+		}
+	},
+    "requirements": [
+        [ "has_13" ],
+		[ "has_cat" ],
+		[ "has_blocks" ],
+		[ "has_chirp" ],
+		[ "has_far" ],
+		[ "has_mall" ],
+		[ "has_mellohi" ],
+		[ "has_stal" ],
+		[ "has_strad" ],
+		[ "has_ward" ],
+		[ "has_11" ],
+		[ "has_wait" ]
+    ]
+}

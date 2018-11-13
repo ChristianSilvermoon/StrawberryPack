@@ -1,0 +1,33 @@
+{
+    "parent": "strawberry:main/root",
+    "display": {
+        "icon": {
+            "item": "minecraft:music_disc_cat"
+        },
+        "title": {"text":"Tunes"},
+        "description": [
+			{"text":"Acquire a music disc"}
+		],
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+		"has_music_disc": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"tag": "minecraft:music_discs"
+					}
+				]
+			}
+		}
+	},
+    "requirements": [
+        [
+            "has_music_disc"
+        ]
+    ]
+}

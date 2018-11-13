@@ -1,0 +1,37 @@
+{
+    "parent": "strawberry:main/root",
+    "display": {
+        "icon": {
+            "item": "minecraft:enchanted_golden_apple"
+        },
+        "title": {"text":"Overpowered"},
+        "description": [
+			{"text":"Eat a Notch Apple"},
+			{"text":"\n\nMinecraft 1.11","color":"dark_gray"}
+		],
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+	"rewards": {
+			"experience": 100
+	},
+    "criteria": {
+		"eaten_notch_apple": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:enchanted_golden_apple"
+					}
+				]
+			}
+		}
+	},
+    "requirements": [
+        [
+            "eaten_notch_apple"
+        ]
+    ]
+}
