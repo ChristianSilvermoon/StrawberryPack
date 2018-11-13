@@ -1,1 +1,1 @@
-scoreboard players set navInfo spvar 0
+scoreboard players set navInfo sp_var 0
