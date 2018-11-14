@@ -8,8 +8,8 @@ execute as @a store result score @s sp_z run data get entity @s Pos[2]
 execute if score playerCount sp_var matches 2.. as @a[nbt={Sleeping:1b},tag=!strawberry_sleep_msg] run function strawberry:sleep_notification
 tag @a[nbt={Sleeping:0b},tag=strawberry_sleep_msg] remove strawberry_sleep_msg
 
-# Process Arrow Shattering if allowed
-execute if score arrowShatter sp_var matches 1 as @e[type=arrow,nbt={inGround:1b}] at @s if block ~ ~ ~ #strawberry:arrow_breakable run fill ~ ~ ~ ~ ~ ~ minecraft:air destroy
+# Process Destructive Projectiles if allowed
+execute if score destructiveProjectiles sp_var matches 1 as @e[type=#strawberry:projectiles,nbt={inGround:1b}] at @s if block ~ ~ ~ #strawberry:projectile_breakable run fill ~ ~ ~ ~ ~ ~ minecraft:air destroy
 
 # Process Nav Info Display if allowed
 execute if score navInfo sp_var matches 1 run function strawberry:tick/nav_info

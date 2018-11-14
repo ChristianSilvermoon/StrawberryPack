@@ -9,8 +9,9 @@ For full details, check out the Repository's Wiki.
 
 ### Adds New Features
 
-- Arrows shatter glass panes and flower pots!
-(can be toggled off with `/function strawberry:gamerule/arrows_shatter/false` for those that don't want that!)
+- Destructive Projectiles!
+Arrows and tridents shatter glass panes and flower pots!
+(can be toggled off with `/function strawberry:gamerule/destructive_projectiles/false` for those that don't want that!)
 
 - Hot Tools!
 Fire Aspect or the appropriate Golden Tool (Because gold needs a little love) will drop most items in their smelted states (unless you have silk touch). This means digging up sand with a Fire Aspect Sword or Golden Shovel will drop *glass*.
@@ -28,7 +29,6 @@ Fire Aspect or the appropriate Golden Tool (Because gold needs a little love) wi
 - **4x Arrows** can be crafted with iron nuggets in place of flint.
 
 - **1x Coal** can be crafted with 1 charcoal. Great for compression!
-
 
 - **8x Clay Blocks** can be crafted with 4 dirt, 4 sand, and 1 water bucket.
 

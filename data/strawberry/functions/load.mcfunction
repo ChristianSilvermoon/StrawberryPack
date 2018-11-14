@@ -7,6 +7,6 @@ scoreboard objectives add sp_y dummy {"text":"Strawberry Pack Y Coordinates","co
 scoreboard objectives add sp_z dummy {"text":"Strawberry Pack Z Coordinates","color":"light_purple"}
 
 # Set Default Variables if not present
-execute unless score arrowShatter sp_var matches 0..1 run scoreboard players set arrowShatter sp_var 1
+execute unless score destructiveProjectiles sp_var matches 0..1 run scoreboard players set destructiveProjectiles sp_var 1
 execute unless score navInfo sp_var matches 0..1 run scoreboard players set navInfo sp_var 1
 execute store result score seed sp_var run seed
