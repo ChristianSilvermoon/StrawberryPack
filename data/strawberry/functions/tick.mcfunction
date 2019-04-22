@@ -13,3 +13,9 @@ execute if score destructiveProjectiles sp_var matches 1 as @e[type=#strawberry:
 
 # Process Nav Info Display if allowed
 execute if score navInfo sp_var matches 1 run function strawberry:tick/nav_info
+
+# Process Warp System If allowed
+execute if score warpSys sp_var matches 1 run function strawberry:tick/warp_system
+
+# Floor Crafting
+execute run function strawberry:tick/floor_crafting

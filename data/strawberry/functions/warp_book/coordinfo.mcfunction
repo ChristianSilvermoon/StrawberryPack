@@ -1,0 +1,2 @@
+execute at @p[scores={sp_warp=320}] run tellraw @p [{"text":""},{"text":"[Strawberry Warp System] ","color":"green","bold":"true"},{"text":"Saved Coordinates: ","color":"yellow"},{"text":"X"},{"score":{"name":"@p","objective":"sp_WarpX"},"color":"green"},{"text":" Y"},{"score":{"name":"@p","objective":"sp_WarpY"},"color":"green"},{"text":" Z"},{"score":{"name":"@p","objective":"sp_WarpZ"},"color":"green"}]
+scoreboard players set @a[scores={sp_warp=320}] sp_warp 0
