@@ -1,1 +1,1 @@
-give @p squid_spawn_egg{display: {Name: "{\"text\":\"Warp Remover\",\"color\":\"yellow\"}"}}
+give @p squid_spawn_egg{CustomModelData:3,display: {Name: "{\"text\":\"Warp Remover\",\"color\":\"yellow\"}"}}
