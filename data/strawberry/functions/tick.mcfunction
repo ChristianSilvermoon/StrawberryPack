@@ -1,5 +1,5 @@
 # Update Dynamic Scoreboard Elements
-execute store result score playerCount spvar run list
+execute store result score playerCount sp_var run list
 execute as @a store result score @s sp_x run data get entity @s Pos[0]
 execute as @a store result score @s sp_y run data get entity @s Pos[1]
 execute as @a store result score @s sp_z run data get entity @s Pos[2]
