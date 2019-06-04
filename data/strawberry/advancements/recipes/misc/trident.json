@@ -1,0 +1,54 @@
+{
+    "parent": "minecraft:recipes/root",
+    "rewards": {
+        "recipes": [
+			"strawberry:misc/trident"
+        ]
+    },
+    "criteria": {
+        "has_shard": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:prismarine_shard"
+                    }
+                ]
+            }
+        },
+		"has_crystals": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:prismarine_crystals"
+					}
+				]
+			}
+		},
+        "has_diamond": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:diamond"
+                    }
+                ]
+            }
+        },
+        "has_the_recipe": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "strawberry:misc/trident"
+            }
+        }
+    },
+    "requirements": [
+        [
+            "has_shard",
+            "has_crystals",
+			"has_diamond",
+            "has_the_recipe"
+        ]
+    ]
+}
