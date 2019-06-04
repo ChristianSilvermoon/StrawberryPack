@@ -1,0 +1,26 @@
+{
+    "parent": "strawberry:recipes/root",
+    "rewards": {
+        "recipes": [
+			"strawberry:smelting/iron_nugget_from_shovel",
+			"strawberry:blasting/iron_nugget_from_shovel"
+        ]
+    },
+    "criteria": {
+        "has_iron_shovel": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:iron_shovel"
+                    }
+                ]
+            }
+        }
+	},
+    "requirements": [
+        [
+            "has_iron_shovel"
+        ]
+    ]
+}

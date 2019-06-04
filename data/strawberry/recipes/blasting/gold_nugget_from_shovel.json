@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": [
+    {
+      "item": "minecraft:golden_shovel"
+    }
+  ],
+  "result": "minecraft:gold_nugget",
+  "experience": 0.1,
+  "cookingtime": 100
+}
