@@ -17,5 +17,11 @@ execute if score navInfo sp_var matches 1 run function strawberry:tick/nav_info
 # Process Warp System If allowed
 execute if score warpSys sp_var matches 1 run function strawberry:tick/warp_system
 
+# Process Crawling System if allowed
+execute if score crawling sp_var matches 1 run function strawberry:tick/crawling
+
+# Reset Sneak Score
+execute as @a if entity @s[scores={sp_sneak=1..}] run scoreboard players set @s sp_sneak 0
+
 # Floor Crafting
 execute run function strawberry:tick/floor_crafting
