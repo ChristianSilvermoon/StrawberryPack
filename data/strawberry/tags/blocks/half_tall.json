@@ -1,0 +1,9 @@
+{
+    "replace": false,
+    "values": [
+        "#minecraft:beds",
+		"#minecraft:slabs",
+		"minecraft:campfire",
+		"minecraft:stonecutter"
+    ]
+}
