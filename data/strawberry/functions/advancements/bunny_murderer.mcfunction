@@ -12,4 +12,4 @@ execute if score killerBunny sp_var matches 1 if entity @s[scores={sp_bunnykills
 execute if score killerBunny sp_var matches 1 if entity @s[scores={sp_bunnykills=10}] run scoreboard players set @s sp_bunnykills 0
 
 execute if score killerBunny sp_var matches 1 run scoreboard players set @s[scores={sp_bunnykills=10}] sp_bunnykills 0
-execute if score killerBunny sp_var matches 1 run advancement revoke @s only strawberry:hidden/rabbit_murderer
+advancement revoke @s only strawberry:hidden/rabbit_murderer
