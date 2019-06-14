@@ -1,0 +1,30 @@
+{
+    "parent": "strawberry:hidden/root",
+    "display": {
+        "icon": {
+            "item": "minecraft:carrot"
+        },
+        "title": "Rabbit Murderer",
+        "description": "You've taken a pure life. You monster.",
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "killed_bunny": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:rabbit"
+                }
+            }
+        }
+    },
+	"rewards": {
+		"function": "strawberry:advancements/bunny_murderer"
+	},
+    "requirements": [
+        [ "killed_bunny" ]
+    ]
+}

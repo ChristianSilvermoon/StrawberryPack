@@ -3,6 +3,8 @@ tellraw @a ["",{"text":"[Strawberry Pack] ","color":"light_purple"},{"text":"Tas
 #Init Scoreboard
 scoreboard objectives add sp_var dummy {"text":"Strawberry Pack Variables","color":"light_purple"}
 
+scoreboard objectives add sp_bunnykills dummy {"text":"SP Bunny Murders","color":"light_purple"}
+
 scoreboard objectives add sp_x dummy {"text":"Strawberry Pack X Coordinates","color":"light_purple"}
 scoreboard objectives add sp_y dummy {"text":"Strawberry Pack Y Coordinates","color":"light_purple"}
 scoreboard objectives add sp_z dummy {"text":"Strawberry Pack Z Coordinates","color":"light_purple"}
@@ -19,4 +21,5 @@ execute unless score destructiveProjectiles sp_var matches 0..1 run scoreboard p
 execute unless score navInfo sp_var matches 0..1 run scoreboard players set navInfo sp_var 1
 execute unless score warpSys sp_var matches 0..1 run scoreboard players set warpSys sp_var 1
 execute unless score crawling sp_var matches 0..1 run scoreboard players set crawling sp_var 1
+execute unless score killerBunny sp_var matches 0..1 run scoreboard players set killerBunny sp_var 1
 execute store result score seed sp_var run seed
