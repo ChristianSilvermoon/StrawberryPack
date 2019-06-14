@@ -1,4 +1,7 @@
 tellraw @a ["",{"text":"[Strawberry Pack] ","color":"light_purple"},{"text":"Tastier than Vanilla!"},{"text":"\n\nClick Here For More Info","color":"aqua","underlined":"true","hoverEvent":{"action":"show_text","value":"Click Here!"},"clickEvent":{"action":"suggest_command","value":"/function strawberry:links"}}]
+tellraw @a ""
+tellraw @a ["",{"text":"Click Here To Configure!","color":"aqua","underlined":"true","hoverEvent":{"action":"show_text","value":"Click to see Gamerules"},"clickEvent":{"action":"suggest_command","value":"/function strawberry:gamerule"}}]
+tellraw @a ""
 
 #Init Scoreboard
 scoreboard objectives add sp_var dummy {"text":"Strawberry Pack Variables","color":"light_purple"}
