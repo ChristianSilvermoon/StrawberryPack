@@ -29,7 +29,7 @@
                                     ]
                                 }
                             ],
-                            "name": "minecraft:jungle_log"
+                            "name": "minecraft:dark_oak_wood"
                         },
                         {
                             "type": "minecraft:item",
@@ -68,7 +68,7 @@
                                     "condition": "minecraft:survives_explosion"
                                 }
                             ],
-                            "name": "minecraft:jungle_log"
+                            "name": "minecraft:dark_oak_wood"
                         }
                     ]
                 }

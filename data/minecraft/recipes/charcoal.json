@@ -3,7 +3,7 @@
     "ingredient": {
         "tag": "minecraft:logs"
     },
-    "result": "minecraft:coal",
+    "result": "minecraft:charcoal",
     "experience": 0.15,
     "cookingtime": 200
 }
