@@ -3,7 +3,7 @@
     "rewards": {
         "recipes": [
             "minecraft:arrow",
-			"strawberry:arrows_from_iron_nuggets"
+			"strawberry:misc/arrows_from_iron_nuggets"
         ]
     },
     "criteria": {
