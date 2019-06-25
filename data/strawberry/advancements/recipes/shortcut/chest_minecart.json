@@ -1,0 +1,51 @@
+{
+    "parent": "minecraft:recipes/root",
+    "rewards": {
+        "recipes": [
+			"strawberry:shortcut/chest_minecart",
+			"strawberry:shortcut/chest_minecart_alt"
+        ]
+    },
+    "criteria": {
+        "has_iron_ingot": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:iron_ingot"
+                    }
+                ]
+            }
+        },
+		"has_chest": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:chest"
+					}
+				]
+			}
+		},
+        "has_the_recipe": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "strawberry:shortcut/chest_minecart"
+            }
+        },
+		"has_alt_recipe": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "strawberry:shortcut/chest_minecart_alt"
+			}
+		}
+    },
+    "requirements": [
+        [
+            "has_iron_ingot",
+			"has_chest",
+			"has_alt_recipe",
+            "has_the_recipe"
+        ]
+    ]
+}
