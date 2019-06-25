@@ -1,0 +1,36 @@
+{
+    "parent": "strawberry:recipes/root",
+    "rewards": {
+        "recipes": [
+			"strawberry:misc/notch_apple"
+        ]
+    },
+    "criteria": {
+        "has_apple": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:apple"
+                    }
+                ]
+            }
+        },
+		"has_gold_block": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:gold_block"
+					}
+				]
+			}
+		}
+	},
+    "requirements": [
+        [
+            "has_gold_block",
+			"has_apple"
+        ]
+    ]
+}
