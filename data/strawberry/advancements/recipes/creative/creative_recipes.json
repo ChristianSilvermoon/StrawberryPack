@@ -1,0 +1,110 @@
+{
+    "parent": "minecraft:recipes/root",
+    "rewards": {
+        "recipes": [
+			"strawberry:creative/impulse_command_block",
+			"strawberry:creative/repeating_command_block",
+			"strawberry:creative/chain_command_block",
+			"strawberry:creative/command_block_minecart",
+			"strawberry:creative/command_block_minecart_alt",
+			"strawberry:creative/structure_block",
+			"strawberry:creative/structure_void",
+			"strawberry:creative/bedrock",
+			"strawberry:creative/barrier"
+        ]
+    },
+    "criteria": {
+        "has_command_block": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:command_block"
+                    }
+                ]
+            }
+        },
+		"has_chain_command_block": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:chain_command_block"
+					}
+				]
+			}
+		},
+		"has_repeating_command_block": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:repeating_command_block"
+					}
+				]
+			}
+		},
+		"has_command_block_minecart": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:command_block_minecart"
+					}
+				]
+			}
+		},
+		"has_structure_block": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:structure_block"
+					}
+				]
+			}
+		},
+		"has_structure_void": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:structure_void"
+					}
+				]
+			}
+		},
+		"has_barrier": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:barrier"
+					}
+				]
+			}
+		},
+		"has_bedrock": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:bedrock"
+					}
+				]
+			}
+		}
+    },
+    "requirements": [
+        [
+			"has_command_block",
+			"has_chain_command_block",
+			"has_repeating_command_block",
+			"has_command_block_minecart",
+			"has_structure_block",
+			"has_structure_void",
+			"has_barrier",
+			"has_bedrock"
+        ]
+    ]
+}

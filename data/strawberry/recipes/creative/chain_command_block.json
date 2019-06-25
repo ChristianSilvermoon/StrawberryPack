@@ -1,0 +1,11 @@
+{
+    "type": "crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:command_block"
+        }
+    ],
+    "result": {
+        "item": "minecraft:chain_command_block"
+    }
+}
