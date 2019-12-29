@@ -53,7 +53,13 @@ html {
 	text-align: center;
 }
 
+#Footer {
+	text-align: center;
+	margin-bottom: 30px;
+}
+
 #Header {
+	padding: 20px;
 	text-align: center;
 }
 
