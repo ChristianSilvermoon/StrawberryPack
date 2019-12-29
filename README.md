@@ -1,6 +1,6 @@
 # Strawberry Pack
 
-If Regular is Vanilla and Modded is Chocolate, then is Strawberry
+If Regular is Vanilla and Modded is Chocolate, then *this* is Strawberry
 
 ## What's it do?
 A number of things, here's a list
