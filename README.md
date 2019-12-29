@@ -3,7 +3,7 @@
 If Regular is Vanilla and Modded is Chocolate, then *this* is Strawberry
 
 ## What's It Do?
-The Strawberry Pack attempts to improve the Vanilla experience with crafting recipe improvements, fun new features and quality of life changes.
+The Strawberry Pack attempts to improve the Vanilla experience with crafting recipe improvements, fun new features, and quality of life changes.
 
 For full details, check out the Repository's Wiki.
 
