@@ -1,0 +1,74 @@
+
+
+body {
+	margin: 0px;
+}
+
+code {
+	background: #333;
+	color: #AF7;
+	border: 1px solid #000;
+	border-radius: 4px;
+	margin: 2px;
+	padding: 4px;
+}
+
+a:link {
+	color: #00A7FF;
+	transition: ease-in-out 0.2s;
+}
+
+a:visited {
+	color: #8fd5ff;
+	transition: ease-in-out 0.2s;
+}
+
+a:hover {
+	color: #EEE;
+	transition: ease-in-out 0.2s;
+}
+
+html {
+	background: linear-gradient(to bottom, #333, #000) fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: #F7A;
+	width: 100vw;
+	height: 100vh;
+}
+
+#ContentArea {
+	padding: 10px;
+	margin: 30px;
+	border: 4px solid #F7A;
+	border-radius: 6px;
+}
+
+#ContentArea svg {
+	display: none;
+}
+
+#FileSourceInfo {
+	margin-top: 30px;
+	text-align: center;
+}
+
+#Header {
+	text-align: center;
+}
+
+#NavBar {
+	margin-top: 6px;
+	padding: 4px;
+	background: linear-gradient(
+		to bottom,
+		#FCC 0%,
+		#444 30%,
+		#444 70%,
+		#FCC 100%);
+	font-size: 1.5em;
+}
+
+#NavBar > a {
+	margin-right: 7px;
+}
