@@ -7,7 +7,7 @@ const page = {
 }
 
 // Use URL to set where links should go.
-const GH_API	= "http://api.github.com/repos"
+const GH_API	= "https://api.github.com/repos"
 const GH_USER	= window.location.href.split("/")[2].split(".")[0];
 const GH_REPO	= window.location.href.split("/")[3];
 
