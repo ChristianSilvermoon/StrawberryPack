@@ -1,0 +1,25 @@
+{
+    "parent": "strawberry:recipes/root",
+    "rewards": {
+        "recipes": [
+			"strawberry:uncondensing_fix/string_from_wool"
+        ]
+    },
+    "criteria": {
+        "has_wool": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "tag": "minecraft:wool"
+                    }
+                ]
+            }
+        }
+	},
+    "requirements": [
+        [
+            "has_wool"
+        ]
+    ]
+}
