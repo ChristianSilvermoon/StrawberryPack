@@ -19,6 +19,9 @@ scoreboard objectives add sp_WarpZ dummy {"text":"SP Warp Saved Z"}
 
 scoreboard objectives add sp_sneak minecraft.custom:minecraft.sneak_time
 
+team add sp_killerBunnies "Killer Bunnies"
+team modify sp_killerBunnies color red
+
 # Set Default Variables if not present
 execute unless score destructiveProjectiles sp_var matches 0..1 run scoreboard players set destructiveProjectiles sp_var 1
 execute unless score navInfo sp_var matches 0..1 run scoreboard players set navInfo sp_var 1

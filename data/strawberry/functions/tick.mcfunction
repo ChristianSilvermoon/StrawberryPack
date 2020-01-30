@@ -8,11 +8,17 @@ execute as @a store result score @s sp_z run data get entity @s Pos[2]
 execute if score playerCount sp_var matches 2.. as @a[nbt={SleepTimer:1s},tag=!strawberry_sleep_msg] run function strawberry:sleep_notification
 tag @a[nbt=!{Sleeping:1s},tag=strawberry_sleep_msg] remove strawberry_sleep_msg
 
+
 # Process Destructive Projectiles if allowed
 execute if score destructiveProjectiles sp_var matches 1 as @e[type=#strawberry:projectiles,nbt={inGround:1b}] at @s if block ~ ~ ~ #strawberry:projectile_breakable run fill ~ ~ ~ ~ ~ ~ minecraft:air destroy
 
 # Process Nav Info Display if allowed
 execute if score navInfo sp_var matches 1 run function strawberry:tick/nav_info
+
+# Killer Bunnies Blind You With Justice
+execute if score killerBunny sp_var matches 1 as @e[team=sp_killerBunnies] at @s run particle minecraft:flame ~ ~ ~ 0.1 0.1 0.1 0.05 1
+execute if score killerBunny sp_var matches 1 as @e[team=sp_killerBunnies] at @s run effect give @a[distance=..10] minecraft:blindness 2 1
+execute if score killerBunny sp_var matches 1 as @e[team=sp_killerBunnies] at @s run title @a[distance=..10] actionbar [{"text":"","color":"red"},{"text":"!?!","obfuscated":"true"},{"text":" Blinded by The Killer Bunny's Wrath! "},{"text":"!?!","obfuscated":"true"}]
 
 # Process Warp System If allowed
 execute if score warpSys sp_var matches 1 run function strawberry:tick/warp_system
