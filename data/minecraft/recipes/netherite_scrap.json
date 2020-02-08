@@ -1,0 +1,10 @@
+{
+    "type": "minecraft:smelting",
+	"group": "netherite_scrap",
+    "ingredient": {
+        "tag": "strawberry:netherite_scrappable"
+    },
+    "result": "minecraft:netherite_scrap",
+    "experience": 2,
+    "cookingtime": 200
+}
