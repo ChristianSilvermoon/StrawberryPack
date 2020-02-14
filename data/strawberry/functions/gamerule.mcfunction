@@ -14,3 +14,6 @@ execute if score navInfo sp_var matches 0 run tellraw @s [{"text":"Navigation In
 
 execute if score warpSys sp_var matches 1 run tellraw @s [{"text":"Warp System: ","clickEvent":{"action":"suggest_command","value":"/function strawberry:gamerule/warp/false"},"hoverEvent":{"action":"show_text","value":"Click to Change"}}, {"text":"true","color":"green"}]
 execute if score warpSys sp_var matches 0 run tellraw @s [{"text":"Warp System: ","clickEvent":{"action":"suggest_command","value":"/function strawberry:gamerule/warp/true"},"hoverEvent":{"action":"show_text","value":"Click to Change"}}, {"text":"false","color":"red"}]
+
+execute if score sleepIndicator sp_var matches 1 run tellraw @s [{"text":"Sleep Indicator: ","clickEvent":{"action":"suggest_command","value":"/function strawberry:gamerule/sleep_indicator/false"},"hoverEvent":{"action":"show_text","value":"Click to Change"}}, {"text":"true","color":"green"}]
+execute if score sleepIndicator sp_var matches 0 run tellraw @s [{"text":"Sleep Indicator: ","clickEvent":{"action":"suggest_command","value":"/function strawberry:gamerule/sleep_indicator/true"},"hoverEvent":{"action":"show_text","value":"Click to Change"}}, {"text":"false","color":"red"}]

@@ -19,8 +19,14 @@ scoreboard objectives add sp_WarpZ dummy {"text":"SP Warp Saved Z"}
 
 scoreboard objectives add sp_sneak minecraft.custom:minecraft.sneak_time
 
+scoreboard objectives add sp_sleep dummy {"text":"Strawberry Sleep Time","color":"light_purple"}
+
 team add sp_killerBunnies "Killer Bunnies"
 team modify sp_killerBunnies color red
+
+# Init Bars
+bossbar add strawberry:sleep ["","Players Needed To Sleep: ",{"score":{"name":"sleeping","objective":"sp_var"}},"/",{"score":{"name":"needToSleep","objective":"sp_var"}}]
+bossbar set strawberry:sleep color blue
 
 # Set Default Variables if not present
 execute unless score destructiveProjectiles sp_var matches 0..1 run scoreboard players set destructiveProjectiles sp_var 1
@@ -28,4 +34,5 @@ execute unless score navInfo sp_var matches 0..1 run scoreboard players set navI
 execute unless score warpSys sp_var matches 0..1 run scoreboard players set warpSys sp_var 1
 execute unless score crawling sp_var matches 0..1 run scoreboard players set crawling sp_var 1
 execute unless score killerBunny sp_var matches 0..1 run scoreboard players set killerBunny sp_var 1
+execute unless score sleepIndicator sp_var matches 0..1 run scoreboard players set sleepIndicator sp_var 1
 execute store result score seed sp_var run seed
