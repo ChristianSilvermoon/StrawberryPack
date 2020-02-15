@@ -35,4 +35,5 @@ execute unless score warpSys sp_var matches 0..1 run scoreboard players set warp
 execute unless score crawling sp_var matches 0..1 run scoreboard players set crawling sp_var 1
 execute unless score killerBunny sp_var matches 0..1 run scoreboard players set killerBunny sp_var 1
 execute unless score sleepIndicator sp_var matches 0..1 run scoreboard players set sleepIndicator sp_var 1
+execute unless score skyWarp sp_var matches 0..1 run scoreboard players set skyWarp sp_var 1
 execute store result score seed sp_var run seed

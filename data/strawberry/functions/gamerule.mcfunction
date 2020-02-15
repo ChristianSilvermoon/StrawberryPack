@@ -17,3 +17,6 @@ execute if score warpSys sp_var matches 0 run tellraw @s [{"text":"Warp System: 
 
 execute if score sleepIndicator sp_var matches 1 run tellraw @s [{"text":"Sleep Indicator: ","clickEvent":{"action":"suggest_command","value":"/function strawberry:gamerule/sleep_indicator/false"},"hoverEvent":{"action":"show_text","value":"Click to Change"}}, {"text":"true","color":"green"}]
 execute if score sleepIndicator sp_var matches 0 run tellraw @s [{"text":"Sleep Indicator: ","clickEvent":{"action":"suggest_command","value":"/function strawberry:gamerule/sleep_indicator/true"},"hoverEvent":{"action":"show_text","value":"Click to Change"}}, {"text":"false","color":"red"}]
+
+execute if score skyWarp sp_var matches 1 run tellraw @s [{"text":"Sky Warping: ","clickEvent":{"action":"suggest_command","value":"/function strawberry:gamerule/sky_warp/false"},"hoverEvent":{"action":"show_text","value":"Click to Change"}}, {"text":"true","color":"green"}]
+execute if score skyWarp sp_var matches 0 run tellraw @s [{"text":"Sky Warping: ","clickEvent":{"action":"suggest_command","value":"/function strawberry:gamerule/sky_warp/true"},"hoverEvent":{"action":"show_text","value":"Click to Change"}}, {"text":"false","color":"red"}]

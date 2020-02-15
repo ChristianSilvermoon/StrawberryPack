@@ -1,0 +1,8 @@
+{
+    "replace": false,
+    "values": [
+        "#strawberry:projectiles",
+		"minecraft:item",
+		"minecraft:player"
+    ]
+}
