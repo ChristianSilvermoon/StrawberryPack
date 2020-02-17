@@ -20,3 +20,6 @@ execute if score sleepIndicator sp_var matches 0 run tellraw @s [{"text":"Sleep 
 
 execute if score skyWarp sp_var matches 1 run tellraw @s [{"text":"Sky Warping: ","clickEvent":{"action":"suggest_command","value":"/function strawberry:gamerule/sky_warp/false"},"hoverEvent":{"action":"show_text","value":"Click to Change"}}, {"text":"true","color":"green"}]
 execute if score skyWarp sp_var matches 0 run tellraw @s [{"text":"Sky Warping: ","clickEvent":{"action":"suggest_command","value":"/function strawberry:gamerule/sky_warp/true"},"hoverEvent":{"action":"show_text","value":"Click to Change"}}, {"text":"false","color":"red"}]
+
+execute if score quarkLadders sp_var matches 1 run tellraw @s [{"text":"Quark Ladders: ","clickEvent":{"action":"suggest_command","value":"/function strawberry:gamerule/quark_ladders/false"},"hoverEvent":{"action":"show_text","value":"Click to Change"}}, {"text":"true","color":"green"}]
+execute if score quarkLadders sp_var matches 0 run tellraw @s [{"text":"Quark Ladders: ","clickEvent":{"action":"suggest_command","value":"/function strawberry:gamerule/quark_ladders/true"},"hoverEvent":{"action":"show_text","value":"Click to Change"}}, {"text":"false","color":"red"}]

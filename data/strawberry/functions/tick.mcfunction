@@ -27,6 +27,9 @@ execute if score crawling sp_var matches 1 run function strawberry:tick/crawling
 # Sky Warp
 execute if score skyWarp sp_var matches 1 run function strawberry:tick/sky_warp
 
+# Quark Ladders
+execute if score quarkLadders sp_var matches 1 run function strawberry:tick/quark_ladders
+
 # Reset Sneak Score
 execute as @a if entity @s[scores={sp_sneak=1..}] run scoreboard players set @s sp_sneak 0
 
