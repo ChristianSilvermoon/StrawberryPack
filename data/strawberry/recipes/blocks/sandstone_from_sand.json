@@ -1,0 +1,36 @@
+{
+    "type": "crafting_shapeless",
+	"group": "sand",
+    "ingredients": [{
+            "tag": "strawberry:pickaxe"
+        },
+        {
+            "item": "minecraft:sandstone"
+        },
+        {
+            "item": "minecraft:sandstone"
+        },
+        {
+            "item": "minecraft:sandstone"
+        },
+        {
+            "item": "minecraft:sandstone"
+        },
+        {
+            "item": "minecraft:sandstone"
+        },
+        {
+            "item": "minecraft:sandstone"
+        },
+        {
+            "item": "minecraft:sandstone"
+        },
+        {
+            "item": "minecraft:sandstone"
+        }
+    ],
+    "result": {
+        "item": "minecraft:sand",
+        "count": 8
+    }
+}
