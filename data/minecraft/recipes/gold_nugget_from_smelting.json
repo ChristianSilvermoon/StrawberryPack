@@ -1,5 +1,6 @@
 {
   "type": "minecraft:smelting",
+  "group": "smelt_gold_ingot",
   "ingredient": [
     {
       "item": "minecraft:golden_pickaxe"
