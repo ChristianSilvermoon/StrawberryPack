@@ -29,4 +29,4 @@ execute as @a run scoreboard players operation @s sp_old_y = @s sp_y
 execute as @a run scoreboard players operation @s sp_old_z = @s sp_z
 
 # Run Again in 3 Ticks
-schedule function strawberry:every_3rd_tick 3t replace
+schedule function strawberry:3rd_tick 3t replace
