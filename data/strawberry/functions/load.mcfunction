@@ -12,6 +12,10 @@ scoreboard objectives add sp_x dummy {"text":"Strawberry Pack X Coordinates","co
 scoreboard objectives add sp_y dummy {"text":"Strawberry Pack Y Coordinates","color":"light_purple"}
 scoreboard objectives add sp_z dummy {"text":"Strawberry Pack Z Coordinates","color":"light_purple"}
 
+scoreboard objectives add sp_old_x dummy {"text":"Strawberry Pack X Coordinates (Old)","color":"light_purple"}
+scoreboard objectives add sp_old_y dummy {"text":"Strawberry Pack Y Coordinates (Old)","color":"light_purple"}
+scoreboard objectives add sp_old_z dummy {"text":"Strawberry Pack Z Coordinates (Old)","color":"light_purple"}
+
 scoreboard objectives add sp_warp trigger {"text":"Strawberry Warp Triggers"}
 scoreboard objectives add sp_WarpX dummy {"text":"SP Warp Saved X"}
 scoreboard objectives add sp_WarpY dummy {"text":"SP Warp Saved Y"}
@@ -37,3 +41,7 @@ execute unless score killerBunny sp_var matches 0..1 run scoreboard players set 
 execute unless score sleepIndicator sp_var matches 0..1 run scoreboard players set sleepIndicator sp_var 1
 execute unless score skyWarp sp_var matches 0..1 run scoreboard players set skyWarp sp_var 1
 execute store result score seed sp_var run seed
+
+# Clear And Set Scheduled Functions
+schedule clear strawberry:3rd_tick
+schedule function strawberry:3rd_tick 3t replace
