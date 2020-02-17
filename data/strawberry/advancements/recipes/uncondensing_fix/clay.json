@@ -1,0 +1,32 @@
+{
+    "parent": "strawberry:recipes/root",
+    "rewards": {
+        "recipes": [
+			"strawberry:uncondensing_fix/clay"
+        ]
+    },
+    "criteria": {
+        "has_clay": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:clay"
+                    }
+                ]
+            }
+        },
+		"has_the_recipe": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "strawberry:uncondensing_fix/clay"
+			}
+		}
+	},
+    "requirements": [
+        [
+            "has_clay",
+			"has_the_recipe"
+        ]
+    ]
+}
