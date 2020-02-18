@@ -28,5 +28,8 @@ execute if score skyWarp sp_var matches 0 run tellraw @s [{"text":"Sky Warping: 
 execute if score quarkLadders sp_var matches 1 run tellraw @s [{"text":"Quark Ladders: ","clickEvent":{"action":"run_command","value":"/function strawberry:gamerule/quark_ladders/false"},"hoverEvent":{"action":"show_text","value":"Click to Toggle\nSlide down ladders faster while looking down\nJust like the Quark Mod!"}}, {"text":"true","color":"green"}]
 execute if score quarkLadders sp_var matches 0 run tellraw @s [{"text":"Quark Ladders: ","clickEvent":{"action":"run_command","value":"/function strawberry:gamerule/quark_ladders/true"},"hoverEvent":{"action":"show_text","value":"Click to Toggle\nSlide down ladders faster while looking down\nJust like the Quark Mod!"}}, {"text":"false","color":"red"}]
 
+execute if score shulkerMites sp_var matches 1 run tellraw @s [{"text":"Shulker Mites: ","clickEvent":{"action":"run_command","value":"/function strawberry:gamerule/shulker_mites/false"},"hoverEvent":{"action":"show_text","value":"Click to Toggle\nEndermites convert nearby Purpur into a Shulker when they despawn\nInspired by the Quark Mod!"}}, {"text":"true","color":"green"}]
+execute if score shulkerMites sp_var matches 0 run tellraw @s [{"text":"Shulker Mites: ","clickEvent":{"action":"run_command","value":"/function strawberry:gamerule/shulker_mites/true"},"hoverEvent":{"action":"show_text","value":"Click to Toggle\nEndermites convert nearby Purpur into a Shulker when they despawn\nInspired by the Quark Mod!"}}, {"text":"false","color":"red"}]
+
 tellraw @s " "
 tellraw @s " "
