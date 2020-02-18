@@ -1,4 +1,15 @@
 #-------------------------------------------------------
+# Player Init
+#-------------------------------------------------------
+
+# To prevent Void Warps, initialize Saved Coordinates to Current Coordinates in Overworld if not set
+execute as @a[nbt={Dimension:0}] unless score @s sp_WarpX = @s sp_WarpX run scoreboard players operation @s sp_WarpX = @s sp_x
+execute as @a[nbt={Dimension:0}] unless score @s sp_WarpY = @s sp_WarpY run scoreboard players operation @s sp_WarpY = @s sp_y
+execute as @a[nbt={Dimension:0}] unless score @s sp_WarpZ = @s sp_WarpZ run scoreboard players operation @s sp_WarpZ = @s sp_z
+# Note: Testing if a score exists this way feels dumb, but it works. Weird.
+# It works because you can compare a score to itself and it will fail if there is no value.
+
+#-------------------------------------------------------
 # Coordinate Saver
 #-------------------------------------------------------
 
