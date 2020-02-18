@@ -1,0 +1,54 @@
+{
+    "parent": "strawberry:recipes/root",
+    "rewards": {
+        "recipes": [
+            "strawberry:misc/slime_ball"
+        ]
+    },
+    "criteria": {
+        "has_honey": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:honey_bottle"
+                    }
+                ]
+            }
+        },
+        "has_red_mushroom": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:red_mushroom"
+                    }
+                ]
+            }
+        },
+        "has_brown_mushroom": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:brown_mushroom"
+                    }
+                ]
+            }
+        },
+        "has_the_recipe": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "strawberry:misc/slime_ball"
+            }
+        }
+    },
+    "requirements": [
+        [
+            "has_red_mushroom",
+            "has_brown_mushroom",
+            "has_honey",
+            "has_the_recipe"
+        ]
+    ]
+}
