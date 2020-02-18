@@ -1,6 +1,20 @@
 # Change Log
 This is the Changelog for all [Releases of The Strawberry Pack](https://github.com/ChristianSilvermoon/StrawberryPack/releases)
 
+## v20.02.17 For Minecraft 1.15.x
+#### Added
+- Andesite, Diorite, and Granite can now be used to craft Stone Tools
+- Bread, Cookie, and Paper recipes are now shapeless.
+- Endermites convert nearby Purpur to Shulkers when they despawn from Age.
+- Can now craft Slime Balls from Honey Bottles and Mushrooms
+
+#### Changed
+- There are no longer separate link functions, there never needed to be
+- Warp coordinates now default to the current Location if unset. No more accidental void portals!
+
+#### Removed
+- Recipe to craft Sticky Pistons using Honey Bottles
+
 ## v20.02.16 For Minecraft 1.15.x
 #### Added
 - Quark Ladders: Look down while descending a ladder to descend faster!
