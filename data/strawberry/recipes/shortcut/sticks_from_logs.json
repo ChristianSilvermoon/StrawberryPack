@@ -1,9 +1,9 @@
 {
     "type": "crafting_shaped",
-	"group": "sticks",
+    "group": "sticks",
     "pattern": [
         "L",
-		"L"
+        "L"
     ],
     "key": {
         "L": {

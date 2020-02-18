@@ -2,7 +2,7 @@
     "parent": "minecraft:recipes/root",
     "rewards": {
         "recipes": [
-			"strawberry:shortcut/hopper_minecart"
+            "strawberry:shortcut/hopper_minecart"
         ]
     },
     "criteria": {
@@ -16,16 +16,16 @@
                 ]
             }
         },
-		"has_hopper": {
-			"trigger": "minecraft:inventory_changed",
-			"conditions": {
-				"items": [
-					{
-						"item": "minecraft:hopper"
-					}
-				]
-			}
-		},
+        "has_hopper": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:hopper"
+                    }
+                ]
+            }
+        },
         "has_the_recipe": {
             "trigger": "minecraft:recipe_unlocked",
             "conditions": {
@@ -36,7 +36,7 @@
     "requirements": [
         [
             "has_iron_ingot",
-			"has_hopper",
+            "has_hopper",
             "has_the_recipe"
         ]
     ]

@@ -2,8 +2,8 @@
     "parent": "strawberry:recipes/root",
     "rewards": {
         "recipes": [
-			"strawberry:smelting/gold_nugget_from_shovel",
-			"strawberry:blasting/gold_nugget_from_shovel"
+            "strawberry:smelting/gold_nugget_from_shovel",
+            "strawberry:blasting/gold_nugget_from_shovel"
         ]
     },
     "criteria": {
@@ -17,7 +17,7 @@
                 ]
             }
         }
-	},
+    },
     "requirements": [
         [
             "has_golden_shovel"

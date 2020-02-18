@@ -1,8 +1,8 @@
 {
     "type": "crafting_shaped",
-	"group": "chest_minecart",
+    "group": "chest_minecart",
     "pattern": [
-		" # ",
+        " # ",
         "I#I",
         "III"
     ],
@@ -10,9 +10,9 @@
         "#": {
             "tag": "minecraft:logs"
         },
-		"I": {
-			"item": "minecraft:iron_ingot"
-		}
+        "I": {
+            "item": "minecraft:iron_ingot"
+        }
     },
     "result": {
         "item": "minecraft:chest_minecart"

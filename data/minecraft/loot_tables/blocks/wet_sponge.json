@@ -7,7 +7,7 @@
                 {
                     "type": "minecraft:alternatives",
                     "children": [
-						{
+                        {
                             "type": "minecraft:item",
                             "conditions": [
                                 {

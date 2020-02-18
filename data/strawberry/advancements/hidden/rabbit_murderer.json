@@ -21,10 +21,12 @@
             }
         }
     },
-	"rewards": {
-		"function": "strawberry:advancements/bunny_murderer"
-	},
+    "rewards": {
+        "function": "strawberry:advancements/bunny_murderer"
+    },
     "requirements": [
-        [ "killed_bunny" ]
+        [
+            "killed_bunny"
+        ]
     ]
 }

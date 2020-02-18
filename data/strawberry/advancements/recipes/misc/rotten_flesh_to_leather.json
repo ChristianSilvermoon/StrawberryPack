@@ -2,7 +2,7 @@
     "parent": "strawberry:recipes/root",
     "rewards": {
         "recipes": [
-			"strawberry:misc/rotten_flesh_to_leather"
+            "strawberry:misc/rotten_flesh_to_leather"
         ]
     },
     "criteria": {
@@ -16,21 +16,21 @@
                 ]
             }
         },
-		"has_glowstone_dust": {
-			"trigger": "minecraft:inventory_changed",
-			"conditions": {
-				"items": [
-					{
-						"item": "minecraft:glowstone_dust"
-					}
-				]
-			}
-		}
-	},
+        "has_glowstone_dust": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:glowstone_dust"
+                    }
+                ]
+            }
+        }
+    },
     "requirements": [
         [
             "has_rotten_flesh",
-			"has_glowstone_dust"
+            "has_glowstone_dust"
         ]
     ]
 }

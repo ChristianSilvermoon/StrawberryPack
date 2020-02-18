@@ -2,7 +2,7 @@
     "parent": "minecraft:recipes/root",
     "rewards": {
         "recipes": [
-			"strawberry:shortcut/repeater"
+            "strawberry:shortcut/repeater"
         ]
     },
     "criteria": {
@@ -16,26 +16,26 @@
                 ]
             }
         },
-		"has_redstone": {
-			"trigger": "minecraft:inventory_changed",
-			"conditions": {
-				"items": [
-					{
-						"item": "minecraft:redstone"
-					}
-				]
-			}
-		},
-		"has_stone": {
-			"trigger": "minecraft:inventory_changed",
-			"conditions": {
-				"items": [
-					{
-						"item": "minecraft:stone"
-					}
-				]
-			}
-		},
+        "has_redstone": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:redstone"
+                    }
+                ]
+            }
+        },
+        "has_stone": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:stone"
+                    }
+                ]
+            }
+        },
         "has_the_recipe": {
             "trigger": "minecraft:recipe_unlocked",
             "conditions": {
@@ -46,8 +46,8 @@
     "requirements": [
         [
             "has_stick",
-			"has_redstone",
-			"has_stone",
+            "has_redstone",
+            "has_stone",
             "has_the_recipe"
         ]
     ]

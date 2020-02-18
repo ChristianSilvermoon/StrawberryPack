@@ -2,7 +2,7 @@
     "parent": "strawberry:recipes/root",
     "rewards": {
         "recipes": [
-			"strawberry:blocks/ice"
+            "strawberry:blocks/ice"
         ]
     },
     "criteria": {
@@ -16,21 +16,21 @@
                 ]
             }
         },
-		"has_water": {
-			"trigger": "minecraft:inventory_changed",
-			"conditions": {
-				"items": [
-					{
-						"item": "minecraft:water_bucket"
-					}
-				]
-			}
-		}
-	},
+        "has_water": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:water_bucket"
+                    }
+                ]
+            }
+        }
+    },
     "requirements": [
         [
             "has_snow_block",
-			"has_water"
+            "has_water"
         ]
     ]
 }

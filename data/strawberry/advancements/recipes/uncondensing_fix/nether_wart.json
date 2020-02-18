@@ -2,7 +2,7 @@
     "parent": "strawberry:recipes/root",
     "rewards": {
         "recipes": [
-			"strawberry:uncondensing_fix/quartz"
+            "strawberry:uncondensing_fix/quartz"
         ]
     },
     "criteria": {
@@ -16,7 +16,7 @@
                 ]
             }
         }
-	},
+    },
     "requirements": [
         [
             "has_quartz_block"

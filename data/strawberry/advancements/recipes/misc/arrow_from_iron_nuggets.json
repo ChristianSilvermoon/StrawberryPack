@@ -3,7 +3,7 @@
     "rewards": {
         "recipes": [
             "minecraft:arrow",
-			"strawberry:misc/arrows_from_iron_nuggets"
+            "strawberry:misc/arrows_from_iron_nuggets"
         ]
     },
     "criteria": {
@@ -17,16 +17,16 @@
                 ]
             }
         },
-		"has_iron_nugget": {
-			"trigger": "minecraft:inventory_changed",
-			"conditions": {
-				"items": [
-					{
-						"item": "minecraft:iron_nugget"
-					}
-				]
-			}
-		},
+        "has_iron_nugget": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:iron_nugget"
+                    }
+                ]
+            }
+        },
         "has_flint": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
@@ -48,7 +48,7 @@
         [
             "has_feather",
             "has_flint",
-			"has_iron_nugget",
+            "has_iron_nugget",
             "has_the_recipe"
         ]
     ]

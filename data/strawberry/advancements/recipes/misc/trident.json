@@ -2,7 +2,7 @@
     "parent": "minecraft:recipes/root",
     "rewards": {
         "recipes": [
-			"strawberry:misc/trident"
+            "strawberry:misc/trident"
         ]
     },
     "criteria": {
@@ -16,16 +16,16 @@
                 ]
             }
         },
-		"has_crystals": {
-			"trigger": "minecraft:inventory_changed",
-			"conditions": {
-				"items": [
-					{
-						"item": "minecraft:prismarine_crystals"
-					}
-				]
-			}
-		},
+        "has_crystals": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:prismarine_crystals"
+                    }
+                ]
+            }
+        },
         "has_diamond": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
@@ -47,7 +47,7 @@
         [
             "has_shard",
             "has_crystals",
-			"has_diamond",
+            "has_diamond",
             "has_the_recipe"
         ]
     ]

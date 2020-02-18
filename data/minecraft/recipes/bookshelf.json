@@ -1,16 +1,16 @@
 {
-  "type": "crafting_shaped",
-  "pattern": [
-    "XXX",
-    "XXX",
-    "XXX"
-  ],
-  "key": {
-    "X": {
-      "item": "minecraft:book"
+    "type": "crafting_shaped",
+    "pattern": [
+        "XXX",
+        "XXX",
+        "XXX"
+    ],
+    "key": {
+        "X": {
+            "item": "minecraft:book"
+        }
+    },
+    "result": {
+        "item": "minecraft:bookshelf"
     }
-  },
-  "result": {
-    "item": "minecraft:bookshelf"
-  }
 }

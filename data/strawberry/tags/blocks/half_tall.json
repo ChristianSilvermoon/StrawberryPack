@@ -2,8 +2,8 @@
     "replace": false,
     "values": [
         "#minecraft:beds",
-		"#minecraft:slabs",
-		"minecraft:campfire",
-		"minecraft:stonecutter"
+        "#minecraft:slabs",
+        "minecraft:campfire",
+        "minecraft:stonecutter"
     ]
 }

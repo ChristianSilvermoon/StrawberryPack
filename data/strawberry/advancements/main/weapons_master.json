@@ -4,163 +4,193 @@
         "icon": {
             "item": "minecraft:diamond_sword"
         },
-        "title": {"text":"Weapons Master"},
+        "title": {
+            "text": "Weapons Master"
+        },
         "description": [
-			{"text":"Collect all weapons"}
-		],
+            {
+                "text": "Collect all weapons"
+            }
+        ],
         "frame": "challenge",
         "show_toast": true,
         "announce_to_chat": true,
         "hidden": false
     },
-	"rewards": {
-			"experience": 100
-	},
+    "rewards": {
+        "experience": 100
+    },
     "criteria": {
-		"has_wooden_sword": {
-			"trigger": "minecraft:inventory_changed",
-			"conditions": {
-				"items": [
-					{
-						"item": "minecraft:wooden_sword"
-					}
-				]
-			}
-		},
-		"has_stone_sword": {
-			"trigger": "minecraft:inventory_changed",
-			"conditions": {
-				"items": [
-					{
-						"item": "minecraft:stone_sword"
-					}
-				]
-			}
-		},
-		"has_iron_sword": {
-			"trigger": "minecraft:inventory_changed",
-			"conditions": {
-				"items": [
-					{
-						"item": "minecraft:iron_sword"
-					}
-				]
-			}
-		},
-		"has_golden_sword": {
-			"trigger": "minecraft:inventory_changed",
-			"conditions": {
-				"items": [
-					{
-						"item": "minecraft:golden_sword"
-					}
-				]
-			}
-		},
-		"has_diamond_sword": {
-			"trigger": "minecraft:inventory_changed",
-			"conditions": {
-				"items": [
-					{
-						"item": "minecraft:diamond_sword"
-					}
-				]
-			}
-		},
-		"has_wooden_axe": {
-			"trigger": "minecraft:inventory_changed",
-			"conditions": {
-				"items": [
-					{
-						"item": "minecraft:wooden_axe"
-					}
-				]
-			}
-		},
-		"has_stone_axe": {
-			"trigger": "minecraft:inventory_changed",
-			"conditions": {
-				"items": [
-					{
-						"item": "minecraft:stone_axe"
-					}
-				]
-			}
-		},
-		"has_iron_axe": {
-			"trigger": "minecraft:inventory_changed",
-			"conditions": {
-				"items": [
-					{
-						"item": "minecraft:iron_axe"
-					}
-				]
-			}
-		},
-		"has_golden_axe": {
-			"trigger": "minecraft:inventory_changed",
-			"conditions": {
-				"items": [
-					{
-						"item": "minecraft:golden_axe"
-					}
-				]
-			}
-		},
-		"has_diamond_axe": {
-			"trigger": "minecraft:inventory_changed",
-			"conditions": {
-				"items": [
-					{
-						"item": "minecraft:diamond_axe"
-					}
-				]
-			}
-		},
-		"has_bow": {
-			"trigger": "minecraft:inventory_changed",
-			"conditions": {
-				"items": [
-					{
-						"item": "minecraft:bow"
-					}
-				]
-			}
-		},
-		"has_trident": {
-			"trigger": "minecraft:inventory_changed",
-			"conditions": {
-				"items": [
-					{
-						"item": "minecraft:trident"
-					}
-				]
-			}
-		},
-		"has_crossbow": {
-			"trigger": "minecraft:inventory_changed",
-			"conditions": {
-				"items": [
-					{
-						"item": "minecraft:crossbow"
-					}
-				]
-			}
-		}
-	},
+        "has_wooden_sword": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:wooden_sword"
+                    }
+                ]
+            }
+        },
+        "has_stone_sword": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:stone_sword"
+                    }
+                ]
+            }
+        },
+        "has_iron_sword": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:iron_sword"
+                    }
+                ]
+            }
+        },
+        "has_golden_sword": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:golden_sword"
+                    }
+                ]
+            }
+        },
+        "has_diamond_sword": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:diamond_sword"
+                    }
+                ]
+            }
+        },
+        "has_wooden_axe": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:wooden_axe"
+                    }
+                ]
+            }
+        },
+        "has_stone_axe": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:stone_axe"
+                    }
+                ]
+            }
+        },
+        "has_iron_axe": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:iron_axe"
+                    }
+                ]
+            }
+        },
+        "has_golden_axe": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:golden_axe"
+                    }
+                ]
+            }
+        },
+        "has_diamond_axe": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:diamond_axe"
+                    }
+                ]
+            }
+        },
+        "has_bow": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:bow"
+                    }
+                ]
+            }
+        },
+        "has_trident": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:trident"
+                    }
+                ]
+            }
+        },
+        "has_crossbow": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:crossbow"
+                    }
+                ]
+            }
+        }
+    },
     "requirements": [
-        [ "has_wooden_sword" ],
-		[ "has_stone_sword" ],
-		[ "has_iron_sword" ],
-		[ "has_golden_sword" ],
-		[ "has_diamond_sword"],
-		[ "has_wooden_axe" ],
-		[ "has_stone_axe" ],
-		[ "has_iron_axe" ],
-		[ "has_golden_axe" ],
-		[ "has_diamond_axe" ],
-		[ "has_bow" ],
-		[ "has_trident" ],
-		[ "has_crossbow" ]
+        [
+            "has_wooden_sword"
+        ],
+        [
+            "has_stone_sword"
+        ],
+        [
+            "has_iron_sword"
+        ],
+        [
+            "has_golden_sword"
+        ],
+        [
+            "has_diamond_sword"
+        ],
+        [
+            "has_wooden_axe"
+        ],
+        [
+            "has_stone_axe"
+        ],
+        [
+            "has_iron_axe"
+        ],
+        [
+            "has_golden_axe"
+        ],
+        [
+            "has_diamond_axe"
+        ],
+        [
+            "has_bow"
+        ],
+        [
+            "has_trident"
+        ],
+        [
+            "has_crossbow"
+        ]
     ]
 }

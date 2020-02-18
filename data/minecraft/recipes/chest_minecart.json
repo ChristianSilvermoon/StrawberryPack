@@ -1,6 +1,6 @@
 {
     "type": "minecraft:crafting_shaped",
-	"group": "chest_minecart",
+    "group": "chest_minecart",
     "pattern": [
         "A",
         "B"

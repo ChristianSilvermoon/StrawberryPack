@@ -2,7 +2,7 @@
     "parent": "strawberry:recipes/root",
     "rewards": {
         "recipes": [
-			"strawberry:uncondensing_fix/nether_wart"
+            "strawberry:uncondensing_fix/nether_wart"
         ]
     },
     "criteria": {
@@ -16,7 +16,7 @@
                 ]
             }
         }
-	},
+    },
     "requirements": [
         [
             "has_nether_wart_block"

@@ -4,28 +4,35 @@
         "icon": {
             "item": "minecraft:cake"
         },
-        "title": {"text":"The Lie"},
+        "title": {
+            "text": "The Lie"
+        },
         "description": [
-			{"text":"Wheat, sugar, milk, and eggs!"},
-			{"text":"\n\nMinecraft 1.11","color":"dark_gray"}
-		],
+            {
+                "text": "Wheat, sugar, milk, and eggs!"
+            },
+            {
+                "text": "\n\nMinecraft 1.11",
+                "color": "dark_gray"
+            }
+        ],
         "frame": "task",
         "show_toast": true,
         "announce_to_chat": true,
         "hidden": false
     },
     "criteria": {
-		"has_cake": {
-			"trigger": "minecraft:inventory_changed",
-			"conditions": {
-				"items": [
-					{
-						"item": "minecraft:cake"
-					}
-				]
-			}
-		}
-	},
+        "has_cake": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:cake"
+                    }
+                ]
+            }
+        }
+    },
     "requirements": [
         [
             "has_cake"

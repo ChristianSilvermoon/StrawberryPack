@@ -2,7 +2,7 @@
     "parent": "strawberry:recipes/root",
     "rewards": {
         "recipes": [
-			"strawberry:blocks/gravel"
+            "strawberry:blocks/gravel"
         ]
     },
     "criteria": {
@@ -16,21 +16,21 @@
                 ]
             }
         },
-		"has_cobblestone": {
-			"trigger": "minecraft:inventory_changed",
-			"conditions": {
-				"items": [
-					{
-						"item": "minecraft:cobblestone"
-					}
-				]
-			}
-		}
-	},
+        "has_cobblestone": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:cobblestone"
+                    }
+                ]
+            }
+        }
+    },
     "requirements": [
         [
             "has_pickaxe",
-			"has_cobblestone"
+            "has_cobblestone"
         ]
     ]
 }

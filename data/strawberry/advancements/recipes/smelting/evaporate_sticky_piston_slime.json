@@ -2,7 +2,7 @@
     "parent": "strawberry:recipes/root",
     "rewards": {
         "recipes": [
-			"strawberry:smelting/evaporate_sticky_piston_slime"
+            "strawberry:smelting/evaporate_sticky_piston_slime"
         ]
     },
     "criteria": {
@@ -16,17 +16,17 @@
                 ]
             }
         },
-		"has_the_recipe": {
-			"trigger": "minecraft:recipe_unlocked",
-			"conditions": {
-				"recipe": "strawberry:smelting/evaporate_sticky_piston_slime"
-			}
-		}
-	},
+        "has_the_recipe": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "strawberry:smelting/evaporate_sticky_piston_slime"
+            }
+        }
+    },
     "requirements": [
         [
             "has_sticky_piston",
-			"has_the_recipe"
+            "has_the_recipe"
         ]
     ]
 }

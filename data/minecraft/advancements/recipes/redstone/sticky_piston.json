@@ -3,7 +3,7 @@
     "rewards": {
         "recipes": [
             "minecraft:sticky_piston",
-			"strawberry:blocks/sticky_piston_from_honey"
+            "strawberry:blocks/sticky_piston_from_honey"
         ]
     },
     "criteria": {
@@ -17,35 +17,35 @@
                 ]
             }
         },
-		"has_honey_bottle": {
-			"trigger": "minecraft:inventory_changed",
-			"conditions": {
-				"items": [
-					{
-						"item": "minecraft:honey_bottle"
-					}
-				]
-			}
-		},
+        "has_honey_bottle": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:honey_bottle"
+                    }
+                ]
+            }
+        },
         "has_the_recipe": {
             "trigger": "minecraft:recipe_unlocked",
             "conditions": {
                 "recipe": "minecraft:sticky_piston"
             }
         },
-		"has_alt_recipe": {
-			"trigger": "minecraft:recipe_unlocked",
-			"conditions": {
-				"recipe": "strawberry:blocks/sticky_piston_from_honey"
-			}
-		}
+        "has_alt_recipe": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "strawberry:blocks/sticky_piston_from_honey"
+            }
+        }
     },
     "requirements": [
         [
             "has_slime_ball",
-			"has_honey_bottle",
+            "has_honey_bottle",
             "has_the_recipe",
-			"has_alt_recipe"
+            "has_alt_recipe"
         ]
     ]
 }

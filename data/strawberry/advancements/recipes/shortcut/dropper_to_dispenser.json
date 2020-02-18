@@ -2,7 +2,7 @@
     "parent": "minecraft:recipes/root",
     "rewards": {
         "recipes": [
-			"strawberry:shortcut/dropper_to_dispenser"
+            "strawberry:shortcut/dropper_to_dispenser"
         ]
     },
     "criteria": {
@@ -16,16 +16,16 @@
                 ]
             }
         },
-		"has_bow": {
-			"trigger": "minecraft:inventory_changed",
-			"conditions": {
-				"items": [
-					{
-						"item": "minecraft:bow"
-					}
-				]
-			}
-		},
+        "has_bow": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:bow"
+                    }
+                ]
+            }
+        },
         "has_the_recipe": {
             "trigger": "minecraft:recipe_unlocked",
             "conditions": {
@@ -36,7 +36,7 @@
     "requirements": [
         [
             "has_dropper",
-			"has_bow",
+            "has_bow",
             "has_the_recipe"
         ]
     ]

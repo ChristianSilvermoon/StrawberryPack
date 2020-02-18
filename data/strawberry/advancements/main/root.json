@@ -3,8 +3,12 @@
         "icon": {
             "item": "minecraft:knowledge_book"
         },
-        "title": {"text":"The Strawerry Pack"},
-        "description": {"text":"Advancements added by The Strawberry Pack"},
+        "title": {
+            "text": "The Strawerry Pack"
+        },
+        "description": {
+            "text": "Advancements added by The Strawberry Pack"
+        },
         "frame": "task",
         "show_toast": false,
         "announce_to_chat": false,

@@ -5,27 +5,27 @@
             "strawberry:shortcut/ladder_from_logs"
         ]
     },
-	"criteria": {
-		"has_logs": {
-			"trigger": "minecraft:inventory_changed",
-			"conditions": {
-				"items": [
-					{
-						"tag": "minecraft:logs"
-					}
-				]
-			}
-		},
-		"has_the_recipe": {
-			"trigger": "minecraft:recipe_unlocked",
-			"conditions": {
-				"recipe": "strawberry:shortcut/ladder_from_logs"
-			}
-		}
-	},
+    "criteria": {
+        "has_logs": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "tag": "minecraft:logs"
+                    }
+                ]
+            }
+        },
+        "has_the_recipe": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "strawberry:shortcut/ladder_from_logs"
+            }
+        }
+    },
     "requirements": [
         [
-			"has_logs",
+            "has_logs",
             "has_the_recipe"
         ]
     ]

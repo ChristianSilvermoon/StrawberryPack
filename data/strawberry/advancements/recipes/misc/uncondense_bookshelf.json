@@ -2,7 +2,7 @@
     "parent": "strawberry:recipes/root",
     "rewards": {
         "recipes": [
-			"strawberry:misc/uncondense_bookshelf"
+            "strawberry:misc/uncondense_bookshelf"
         ]
     },
     "criteria": {
@@ -16,7 +16,7 @@
                 ]
             }
         }
-	},
+    },
     "requirements": [
         [
             "has_bookshelf"

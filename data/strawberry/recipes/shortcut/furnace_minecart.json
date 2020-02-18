@@ -1,6 +1,6 @@
 {
     "type": "crafting_shaped",
-	"group": "furnace_minecart",
+    "group": "furnace_minecart",
     "pattern": [
         "I#I",
         "III"
@@ -9,9 +9,9 @@
         "#": {
             "item": "minecraft:furnace"
         },
-		"I": {
-			"item": "minecraft:iron_ingot"
-		}
+        "I": {
+            "item": "minecraft:iron_ingot"
+        }
     },
     "result": {
         "item": "minecraft:furnace_minecart"

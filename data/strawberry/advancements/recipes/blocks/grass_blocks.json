@@ -2,7 +2,7 @@
     "parent": "strawberry:recipes/root",
     "rewards": {
         "recipes": [
-			"strawberry:blocks/grass_blocks"
+            "strawberry:blocks/grass_blocks"
         ]
     },
     "criteria": {
@@ -16,21 +16,21 @@
                 ]
             }
         },
-		"has_bone_meal": {
-			"trigger": "minecraft:inventory_changed",
-			"conditions": {
-				"items": [
-					{
-						"item": "minecraft:bone_meal"
-					}
-				]
-			}
-		}
-	},
+        "has_bone_meal": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:bone_meal"
+                    }
+                ]
+            }
+        }
+    },
     "requirements": [
         [
             "has_dirt",
-			"has_bone_meal"
+            "has_bone_meal"
         ]
     ]
 }

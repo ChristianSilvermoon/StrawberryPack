@@ -2,7 +2,7 @@
     "replace": false,
     "values": [
         "#strawberry:projectiles",
-		"minecraft:item",
-		"minecraft:player"
+        "minecraft:item",
+        "minecraft:player"
     ]
 }

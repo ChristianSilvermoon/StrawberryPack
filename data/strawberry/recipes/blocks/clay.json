@@ -1,7 +1,8 @@
 {
     "type": "crafting_shapeless",
-	"group": "clay",
-    "ingredients": [{
+    "group": "clay",
+    "ingredients": [
+        {
             "item": "minecraft:water_bucket"
         },
         {

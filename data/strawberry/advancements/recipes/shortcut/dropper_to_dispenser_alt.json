@@ -2,7 +2,7 @@
     "parent": "minecraft:recipes/root",
     "rewards": {
         "recipes": [
-			"strawberry:shortcut/dropper_to_dispenser_alt"
+            "strawberry:shortcut/dropper_to_dispenser_alt"
         ]
     },
     "criteria": {
@@ -16,26 +16,26 @@
                 ]
             }
         },
-		"has_string": {
-			"trigger": "minecraft:inventory_changed",
-			"conditions": {
-				"items": [
-					{
-						"item": "minecraft:string"
-					}
-				]
-			}
-		},
-		"has_dropper": {
-			"trigger": "minecraft:inventory_changed",
-			"conditions": {
-				"items": [
-					{
-						"item": "minecraft:dropper"
-					}
-				]
-			}
-		},
+        "has_string": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:string"
+                    }
+                ]
+            }
+        },
+        "has_dropper": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:dropper"
+                    }
+                ]
+            }
+        },
         "has_the_recipe": {
             "trigger": "minecraft:recipe_unlocked",
             "conditions": {
@@ -46,8 +46,8 @@
     "requirements": [
         [
             "has_stick",
-			"has_string",
-			"has_dropper",
+            "has_string",
+            "has_dropper",
             "has_the_recipe"
         ]
     ]

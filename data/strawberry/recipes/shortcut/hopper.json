@@ -1,18 +1,18 @@
 {
     "type": "crafting_shaped",
-	"group": "hopper",
+    "group": "hopper",
     "pattern": [
         "ILI",
         "ILI",
-		" I "
+        " I "
     ],
     "key": {
         "L": {
             "tag": "minecraft:logs"
         },
-		"I": {
-			"item": "minecraft:iron_ingot"
-		}
+        "I": {
+            "item": "minecraft:iron_ingot"
+        }
     },
     "result": {
         "item": "minecraft:hopper"

@@ -1,7 +1,8 @@
 {
     "type": "crafting_shapeless",
     "group": "leather",
-    "ingredients": [{
+    "ingredients": [
+        {
             "item": "minecraft:glowstone_dust"
         },
         {

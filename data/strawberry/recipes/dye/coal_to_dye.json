@@ -1,6 +1,6 @@
 {
     "type": "crafting_shapeless",
-	"group": "black_dye",
+    "group": "black_dye",
     "ingredients": [
         {
             "tag": "strawberry:coal"

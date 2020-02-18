@@ -2,7 +2,7 @@
     "parent": "minecraft:recipes/root",
     "rewards": {
         "recipes": [
-			"strawberry:shortcut/furnace_minecart"
+            "strawberry:shortcut/furnace_minecart"
         ]
     },
     "criteria": {
@@ -16,16 +16,16 @@
                 ]
             }
         },
-		"has_furnace": {
-			"trigger": "minecraft:inventory_changed",
-			"conditions": {
-				"items": [
-					{
-						"item": "minecraft:furnace"
-					}
-				]
-			}
-		},
+        "has_furnace": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:furnace"
+                    }
+                ]
+            }
+        },
         "has_the_recipe": {
             "trigger": "minecraft:recipe_unlocked",
             "conditions": {
@@ -36,7 +36,7 @@
     "requirements": [
         [
             "has_iron_ingot",
-			"has_furnace",
+            "has_furnace",
             "has_the_recipe"
         ]
     ]

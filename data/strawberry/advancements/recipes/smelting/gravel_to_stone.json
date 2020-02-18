@@ -2,7 +2,7 @@
     "parent": "strawberry:recipes/root",
     "rewards": {
         "recipes": [
-			"strawberry:smelting/gravel_to_stone"
+            "strawberry:smelting/gravel_to_stone"
         ]
     },
     "criteria": {
@@ -16,7 +16,7 @@
                 ]
             }
         }
-	},
+    },
     "requirements": [
         [
             "has_gravel"

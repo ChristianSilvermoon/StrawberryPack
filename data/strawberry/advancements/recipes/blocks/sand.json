@@ -2,7 +2,7 @@
     "parent": "strawberry:recipes/root",
     "rewards": {
         "recipes": [
-			"strawberry:blocks/sand"
+            "strawberry:blocks/sand"
         ]
     },
     "criteria": {
@@ -16,21 +16,21 @@
                 ]
             }
         },
-		"has_gravel": {
-			"trigger": "minecraft:inventory_changed",
-			"conditions": {
-				"items": [
-					{
-						"item": "minecraft:gravel"
-					}
-				]
-			}
-		}
-	},
+        "has_gravel": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:gravel"
+                    }
+                ]
+            }
+        }
+    },
     "requirements": [
         [
             "has_pickaxe",
-			"has_gravel"
+            "has_gravel"
         ]
     ]
 }

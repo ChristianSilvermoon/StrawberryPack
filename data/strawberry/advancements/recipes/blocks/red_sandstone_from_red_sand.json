@@ -2,7 +2,7 @@
     "parent": "strawberry:recipes/root",
     "rewards": {
         "recipes": [
-			"strawberry:blocks/red_sandstone_from_red_sand"
+            "strawberry:blocks/red_sandstone_from_red_sand"
         ]
     },
     "criteria": {
@@ -16,28 +16,28 @@
                 ]
             }
         },
-		"has_pickaxe": {
-			"trigger": "minecraft:inventory_changed",
-			"conditions": {
-				"items": [
-					{
-						"tag": "strawberry:pickaxe"
-					}
-				]
-			}
-		},
-		"has_the_recipe": {
-			"trigger": "minecraft:recipe_unlocked",
-			"conditions": {
-				"recipe": "strawberry:blocks/red_sandstone_from_red_sand"
-			}
-		}
-	},
+        "has_pickaxe": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "tag": "strawberry:pickaxe"
+                    }
+                ]
+            }
+        },
+        "has_the_recipe": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "strawberry:blocks/red_sandstone_from_red_sand"
+            }
+        }
+    },
     "requirements": [
         [
             "has_red_sandstone",
-			"has_pickaxe",
-			"has_the_recipe"
+            "has_pickaxe",
+            "has_the_recipe"
         ]
     ]
 }
