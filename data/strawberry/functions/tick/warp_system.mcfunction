@@ -14,20 +14,22 @@ execute as @a[nbt={Dimension:0}] unless score @s sp_WarpZ = @s sp_WarpZ run scor
 #-------------------------------------------------------
 
 # On Success
-execute as @e[nbt={CustomName:"{\"color\":\"yellow\",\"text\":\"Coordinate Saver\"}"}] at @s if entity @s[nbt={Dimension:0}] run function strawberry:coordinate_saver/success
+execute as @e[tag=sp_warp_saver] at @s if entity @s[nbt={Dimension:0}] run function strawberry:coordinate_saver/success
 
 # On Failure
-execute as @e[nbt={CustomName:"{\"color\":\"yellow\",\"text\":\"Coordinate Saver\"}"}] at @s unless entity @s[nbt={Dimension:0}] run function strawberry:coordinate_saver/failure
+execute as @e[tag=sp_warp_saver] at @s unless entity @s[nbt={Dimension:0}] run function strawberry:coordinate_saver/failure
 
 #-------------------------------------------------------
 # Warp Placer
 #-------------------------------------------------------
 
 # On Success
-execute as @e[nbt={CustomName:"{\"color\":\"yellow\",\"text\":\"Warp Placer\"}"}] at @s if entity @s[nbt={Dimension:0}] run function strawberry:warp_placer/success
+# execute as @e[nbt={CustomName:"{\"color\":\"yellow\",\"text\":\"Warp Placer\"}"}] at @s if entity @s[nbt={Dimension:0}] run function strawberry:warp_placer/success
+execute as @e[tag=sp_warp_placer] at @s if entity @s[nbt={Dimension:0}] run function strawberry:warp_placer/success
 
 # On Failure
-execute as @e[nbt={CustomName:"{\"color\":\"yellow\",\"text\":\"Warp Placer\"}"}] at @s unless entity @s[nbt={Dimension:0}] run function strawberry:warp_placer/failure
+# execute as @e[nbt={CustomName:"{\"color\":\"yellow\",\"text\":\"Warp Placer\"}"}] at @s unless entity @s[nbt={Dimension:0}] run function strawberry:warp_placer/failure
+execute as @e[tag=sp_warp_placer] at @s unless entity @s[nbt={Dimension:0}] run function strawberry:warp_placer/failure
 
 # Armor Stand
 execute as @e[tag=Warp,tag=Phase1] at @s run function strawberry:warp_placer/armor_stand
@@ -36,10 +38,12 @@ execute as @e[tag=Warp,tag=Phase1] at @s run function strawberry:warp_placer/arm
 # Warp Remover
 #-------------------------------------------------------
 # On Success
-execute as @e[nbt={CustomName:"{\"color\":\"yellow\",\"text\":\"Warp Remover\"}"}] at @s if entity @e[distance=..5,tag=Warp,tag=!Phase1] run function strawberry:warp_remover/success
+# execute as @e[nbt={CustomName:"{\"color\":\"yellow\",\"text\":\"Warp Remover\"}"}] at @s if entity @e[distance=..5,tag=Warp,tag=!Phase1] run function strawberry:warp_remover/success
+execute as @e[tag=sp_warp_remover] at @s if entity @e[distance=..5,tag=Warp,tag=!Phase1] run function strawberry:warp_remover/success
 
 # On Failure
-execute as @e[nbt={CustomName:"{\"color\":\"yellow\",\"text\":\"Warp Remover\"}"},tag=!Success] at @s unless entity @e[distance=..5,tag=Warp,tag=!Phase1] run function strawberry:warp_remover/failure
+# execute as @e[nbt={CustomName:"{\"color\":\"yellow\",\"text\":\"Warp Remover\"}"},tag=!Success] at @s unless entity @e[distance=..5,tag=Warp,tag=!Phase1] run function strawberry:warp_remover/failure
+execute as @e[tag=sp_warp_remover,tag=!Success] at @s unless entity @e[distance=..5,tag=Warp,tag=!Phase1] run function strawberry:warp_remover/failure
 
 # Armor Stand
 execute as @e[tag=Warp,tag=rm] at @s run function strawberry:warp_remover/armor_stand
