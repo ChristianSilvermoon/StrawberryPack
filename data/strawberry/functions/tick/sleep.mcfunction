@@ -6,7 +6,7 @@ scoreboard players set sleeping sp_var 0
 scoreboard players set needToSleep sp_var 0
 
 execute as @a[scores={sp_sleep=1..}] run scoreboard players add sleeping sp_var 1
-execute as @a[nbt={"Dimension":0}] run scoreboard players add needToSleep sp_var 1
+execute as @a[predicate=strawberry:in_overworld] run scoreboard players add needToSleep sp_var 1
 
 # Announce Sleeping
 execute as @a[scores={sp_sleep=1}] run tellraw @a ["",{"selector":"@s","color":"blue"},{"text":" is now sleeping...","color":"blue"}]
