@@ -1,6 +1,16 @@
 # Change Log
 This is the Changelog for all [Releases of The Strawberry Pack](https://github.com/ChristianSilvermoon/StrawberryPack/releases)
 
+## v20.02.19 For Minecraft 1.15.x
+A little preformance boost alone warranted this release.
+#### Added
+- Predicates to check dimension (Overworld/Nether/End)
+
+#### Changed
+- Warp System is now better for preformance.
+- Warp System now uses Entity Tags instead of NBT Checks for colored Squid Names.
+- Warp System uses Predicates instead of NBT Checks for dimension.
+
 ## v20.02.17 For Minecraft 1.15.x
 #### Added
 - Andesite, Diorite, and Granite can now be used to craft Stone Tools
