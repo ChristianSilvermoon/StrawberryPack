@@ -6,6 +6,7 @@ execute as @a store result score @s sp_z run data get entity @s Pos[2]
 
 # Sleep Indicator
 execute if score sleepIndicator sp_var matches 1 if score playerCount sp_var matches 2.. run function strawberry:tick/sleep
+execute if score sleepIndicator sp_var matches 1 unless entity @a[scores={sp_sleep=1..}] run bossbar set strawberry:sleep visible false
 
 # Process Destructive Projectiles if allowed
 execute if score destructiveProjectiles sp_var matches 1 as @e[type=#strawberry:projectiles,nbt={inGround:1b}] at @s if block ~ ~ ~ #strawberry:projectile_breakable run fill ~ ~ ~ ~ ~ ~ minecraft:air destroy
