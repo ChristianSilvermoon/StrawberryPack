@@ -1,0 +1,21 @@
+{
+    "type": "crafting_shapeless",
+	"group": "gravel",
+    "ingredients": [
+        {
+            "item": "minecraft:flint"
+        },
+		{
+			"item": "minecraft:flint"
+		},
+		{
+			"item": "minecraft:flint"
+		},
+		{
+			"item": "minecraft:flint"
+		}
+    ],
+    "result": {
+        "item": "minecraft:gravel"
+    }
+}
