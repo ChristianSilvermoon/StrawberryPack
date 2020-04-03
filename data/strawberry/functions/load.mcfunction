@@ -40,7 +40,7 @@ execute unless score crawling sp_var matches 0..1 run scoreboard players set cra
 execute unless score killerBunny sp_var matches 0..1 run scoreboard players set killerBunny sp_var 1
 execute unless score sleepIndicator sp_var matches 0..1 run scoreboard players set sleepIndicator sp_var 1
 execute unless score skyWarp sp_var matches 0..1 run scoreboard players set skyWarp sp_var 1
-execute unless score quarkLadders sp_var matches 0..1 run scoreboard players set quarkLadders sp_var 1
+execute unless score quarkLadders sp_var matches 0..1 run scoreboard players set quarkLadders sp_var 0
 execute unless score shulkerMites sp_var matches 0..1 run scoreboard players set shulkerMites sp_var 1
 
 execute store result score seed sp_var run seed
