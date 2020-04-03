@@ -18,4 +18,3 @@ bossbar set strawberry:sleep name [{"text":"","color":"white"},"Players Needed T
 
 execute if entity @a[scores={sp_sleep=1..}] run bossbar set strawberry:sleep players @a
 execute if entity @a[scores={sp_sleep=1..}] run bossbar set strawberry:sleep visible true
-execute unless entity @a[scores={sp_sleep=1..}] run bossbar set strawberry:sleep visible false
