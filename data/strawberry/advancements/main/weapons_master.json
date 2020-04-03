@@ -71,6 +71,16 @@
                 ]
             }
         },
+		"has_netherite_sword": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:netherite_sword"
+					}
+				]
+			}
+		},
         "has_wooden_axe": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
@@ -121,6 +131,16 @@
                 ]
             }
         },
+		"has_netherite_axe": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:netherite_axe"
+					}
+				]
+			}
+		},
         "has_bow": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
@@ -168,6 +188,9 @@
         [
             "has_diamond_sword"
         ],
+		[
+			"has_netherite_sword"
+		],
         [
             "has_wooden_axe"
         ],
@@ -183,6 +206,9 @@
         [
             "has_diamond_axe"
         ],
+		[
+			"has_netherite_axe"
+		],
         [
             "has_bow"
         ],
