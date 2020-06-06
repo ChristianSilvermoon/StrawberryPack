@@ -34,6 +34,9 @@ execute if score quarkLadders sp_var matches 1 run function strawberry:tick/quar
 # Shulker Mites
 execute if score shulkerMites sp_var matches 1 run function strawberry:tick/shulker_mites
 
+# Lightning Griefing
+execute if score lightningGriefing sp_var matches 1 if entity @e[type=minecraft:lightning_bolt] run function strawberry:tick/lightning_griefing
+
 # Reset Sneak Score
 execute as @a if entity @s[scores={sp_sneak=1..}] run scoreboard players set @s sp_sneak 0
 
