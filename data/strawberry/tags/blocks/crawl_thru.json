@@ -75,6 +75,14 @@
         "#minecraft:doors",
         "#minecraft:wooden_pressure_plates",
         "minecraft:light_weighted_pressure_plate",
-        "minecraft:heavy_weighted_pressure_plate"
+        "minecraft:heavy_weighted_pressure_plate",
+	"minecraft:weeping_vines",
+	"minecraft:weeping_vines_plant",
+	"minecraft:warped_fungus",
+	"minecraft:crimson_roots",
+	"minecraft:crimson_fungus",
+	"minecraft:twisting_vines",
+	"minecraft:twisting_vines_plant",
+	"minecraft:nether_sprouts"
     ]
 }
