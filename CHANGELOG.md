@@ -1,6 +1,25 @@
 # Change Log
 This is the Changelog for all [Releases of The Strawberry Pack](https://github.com/ChristianSilvermoon/StrawberryPack/releases)
 
+## v20.06.28 For Minecraft 1.16.x
+Time to get the ball rolling for a new version!
+
+#### Added
+- Added support for 1.16.x Blocks
+- Netherite Gear can be smelted for Netherite Scrap
+- Lightning Griefing
+- Fulgurite Structures
+- Game rules to control new Lightning effects
+
+#### Changed
+- Weapons Master Advancement accounts for Netherite
+
+### Fixed
+- Spacing in Load Message
+- Typo in Coordinate Saver Fail Message
+- Sky Warp Effects playing in incorrect locations
+
+
 ## v20.02.19 For Minecraft 1.15.x
 A little preformance boost alone warranted this release.
 #### Added
