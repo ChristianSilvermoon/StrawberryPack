@@ -1,0 +1,5 @@
+# Ignore editor .swp files
+*.swp
+
+# Ignore minecraft.jar
+minecraft.jar
