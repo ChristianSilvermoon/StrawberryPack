@@ -1,0 +1,25 @@
+{
+    "parent": "strawberry:recipes/root",
+    "rewards": {
+        "recipes": [
+            "strawberry:dye/sweet_berries_to_dye"
+        ]
+    },
+    "criteria": {
+        "has_sweet_berries": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:sweet_berries"
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "has_sweet_berries"
+        ]
+    ]
+}
