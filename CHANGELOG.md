@@ -1,6 +1,11 @@
 # Change Log
 This is the Changelog for all [Releases of The Strawberry Pack](https://github.com/ChristianSilvermoon/StrawberryPack/releases)
 
+## v20.10.30 For Minecraft 1.16.x
+
+#### Added
+- Abillity to craft red dye from Sweet Berries
+
 ## v20.06.28 For Minecraft 1.16.x
 Time to get the ball rolling for a new version!
 
