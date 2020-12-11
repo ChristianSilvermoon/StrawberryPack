@@ -8,6 +8,7 @@
         "strawberry:config/lightning_structures/init",
         "strawberry:config/limit_wandering_trader_spawning/init",
         "strawberry:config/nav_info/init",
+		"strawberry:config/pack_announcement/init",
         "strawberry:config/quark_ladders/init",
         "strawberry:config/shulker_mites/init",
         "strawberry:config/sky_warp/init",

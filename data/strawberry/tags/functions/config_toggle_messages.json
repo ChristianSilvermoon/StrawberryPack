@@ -8,6 +8,7 @@
         "strawberry:config/lightning_structures/msg",
         "strawberry:config/limit_wandering_trader_spawning/msg",
         "strawberry:config/nav_info/msg",
+		"strawberry:config/pack_announcement/msg",
         "strawberry:config/quark_ladders/msg",
         "strawberry:config/shulker_mites/msg",
         "strawberry:config/sky_warp/msg",

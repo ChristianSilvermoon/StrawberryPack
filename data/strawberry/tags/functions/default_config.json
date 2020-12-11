@@ -8,6 +8,7 @@
         "strawberry:config/lightning_structures/default",
         "strawberry:config/limit_wandering_trader_spawning/default",
         "strawberry:config/nav_info/default",
+		"strawberry:config/pack_announcement/default",
         "strawberry:config/quark_ladders/default",
         "strawberry:config/shulker_mites/default",
         "strawberry:config/sky_warp/default",
