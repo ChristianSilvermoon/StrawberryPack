@@ -17,6 +17,10 @@ tellraw @s {"text":"Report a Bug","color":"aqua","hoverEvent":{"action":"show_te
 # GitHub Wiki
 tellraw @s {"text":"GitHub Wiki","color":"dark_aqua","hoverEvent":{"action":"show_text","value":"Click To Open"},"clickEvent":{"action":"open_url","value":"https://github.com/ChristianSilvermoon/StrawberryPack/wiki"}}
 
+# Latest Release
+tellraw @s {"text":"Latest Release","color":"aqua","hoverEvent":{"action":"show_text","value":"Click To Open"},"clickEvent":{"action":"open_url","value":"https://github.com/ChristianSilvermoon/StrawberryPack/releases/latest"}}
+tellraw @s {"text":"All Releases","color":"dark_aqua","hoverEvent":{"action":"show_text","value":"Click To Open"},"clickEvent":{"action":"open_url","value":"https://github.com/ChristianSilvermoon/StrawberryPack/releases"}}
+
 # Footer
 tellraw @s {"text":"-----------------------------------------------------","color":"dark_gray"}
 tellraw @s ""
