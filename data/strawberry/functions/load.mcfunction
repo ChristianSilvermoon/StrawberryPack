@@ -27,6 +27,8 @@ scoreboard objectives add sp_sneak minecraft.custom:minecraft.sneak_time
 
 scoreboard objectives add sp_sleep dummy {"text":"Strawberry Sleep Time","color":"light_purple"}
 
+scoreboard objectives add sp_ed1 dummy {"text":"Strawberry Entity Data - 1","color":"light_purple"}
+
 team add sp_killerBunnies "Killer Bunnies"
 team modify sp_killerBunnies color red
 
