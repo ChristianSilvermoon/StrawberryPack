@@ -37,6 +37,9 @@ execute if score shulkerMites sp_var matches 1 run function strawberry:tick/shul
 # Lightning Griefing
 execute if score lightningGriefing sp_var matches 1 if entity @e[type=minecraft:lightning_bolt] run function strawberry:tick/lightning_griefing
 
+# Limit Wandering Trader Spawns
+execute if score limitWanderingTraderSpawning sp_var matches 1 if entity @e[type=minecraft:wandering_trader,tag=!sp_entity_proc1] run function strawberry:tick/limit_wandering_trader_spawning
+
 # Reset Sneak Score
 execute as @a if entity @s[scores={sp_sneak=1..}] run scoreboard players set @s sp_sneak 0
 
