@@ -46,6 +46,7 @@ execute unless score quarkLadders sp_var matches 0..1 run scoreboard players set
 execute unless score shulkerMites sp_var matches 0..1 run scoreboard players set shulkerMites sp_var 1
 execute unless score lightningGriefing sp_var matches 0..1 run scoreboard players set lightningGriefing sp_var 1
 execute unless score lightningStructures sp_var matches 0..1 run scoreboard players set lightningStructures sp_var 1
+execute unless score limitWanderingTraderSpawning sp_var matches 0..1 run scoreboard players set limitWanderingTraderSpawning sp_var 1 
 
 execute store result score seed sp_var run seed
 
