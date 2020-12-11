@@ -1,0 +1,17 @@
+{
+    "replace": false,
+    "values": [
+        "strawberry:config/crawling/msg",
+        "strawberry:config/destructive_projectiles/msg",
+        "strawberry:config/killer_bunny/msg",
+        "strawberry:config/lightning_griefing/msg",
+        "strawberry:config/lightning_structures/msg",
+        "strawberry:config/limit_wandering_trader_spawning/msg",
+        "strawberry:config/nav_info/msg",
+        "strawberry:config/quark_ladders/msg",
+        "strawberry:config/shulker_mites/msg",
+        "strawberry:config/sky_warp/msg",
+        "strawberry:config/sleep_indicator/msg",
+        "strawberry:config/warp/msg"
+    ]
+}
