@@ -1,0 +1,17 @@
+{
+    "replace": false,
+    "values": [
+        "strawberry:config/crawling/init",
+        "strawberry:config/destructive_projectiles/init",
+        "strawberry:config/killer_bunny/init",
+        "strawberry:config/lightning_griefing/init",
+        "strawberry:config/lightning_structures/init",
+        "strawberry:config/limit_wandering_trader_spawning/init",
+        "strawberry:config/nav_info/init",
+        "strawberry:config/quark_ladders/init",
+        "strawberry:config/shulker_mites/init",
+        "strawberry:config/sky_warp/init",
+        "strawberry:config/sleep_indicator/init",
+        "strawberry:config/warp/init"
+    ]
+}
