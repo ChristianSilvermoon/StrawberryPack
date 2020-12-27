@@ -1,6 +1,27 @@
 # Change Log
 This is the Changelog for all [Releases of The Strawberry Pack](https://github.com/ChristianSilvermoon/StrawberryPack/releases)
 
+## v20.12.26 For Minecraft 1.16.x
+
+#### Added
+- Pack announcement message is now toggle-able
+- Release Page Links
+- Option to reset configs from config message
+- Config Init Functions for every option
+- Config Default Functions for every option
+- Tag for Config Init Functions
+- Tag for Config Default Functions
+- Tag for Config Toggle Messages
+- Option to limit wandering trader spawns to villages
+- Scoreboard for internal use: `sp_ed1`
+
+#### Changed
+- Pack Announcement Message
+- Links Message Style
+- Load function uses the `#strawberry:init_config` tag to initialize all uninitialized options
+- `gamerule` Function Directory was renamed to `config` 
+- All function tags have their replace value set to `false` now. 
+
 ## v20.10.30 For Minecraft 1.16.x
 
 #### Added
