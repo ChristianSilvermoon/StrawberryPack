@@ -10,7 +10,7 @@ execute as @e[type=#strawberry:can_skywarp] at @s if entity @s[predicate=strawbe
 
 # Overworld
 execute as @e[type=#strawberry:can_skywarp] at @s if entity @s[predicate=strawberry:in_overworld,y=2000,dy=50] in minecraft:the_end run tp ~ 10 ~
-execute as @e[type=#strawberry:can_skywarp] at @s if entity @s[predicate=strawberry:in_overworld,y=-2,dy=-50] in minecraft:the_nether run tp ~ 1990 ~
+execute as @e[type=#strawberry:can_skywarp] at @s if entity @s[predicate=strawberry:in_overworld,y=-66,dy=-50] in minecraft:the_nether run tp ~ 1990 ~
 
 # Nether
-execute as @e[type=#strawberry:can_skywarp] at @s if entity @s[predicate=strawberry:in_nether,y=2000,dy=50] in minecraft:overworld run tp ~ 10 ~
+execute as @e[type=#strawberry:can_skywarp] at @s if entity @s[predicate=strawberry:in_nether,y=2000,dy=50] in minecraft:overworld run tp ~ -53 ~
