@@ -4,6 +4,7 @@
         "minecraft:granite",
         "minecraft:andesite",
         "minecraft:diorite",
-        "minecraft:blackstone"
+        "minecraft:blackstone",
+        "minecraft:cobbled_deepslate"
     ]
 }
