@@ -4,6 +4,7 @@
         "#minecraft:beds",
         "#minecraft:slabs",
         "minecraft:campfire",
-        "minecraft:stonecutter"
+        "minecraft:stonecutter",
+        "minecraft:sculk_sensor"
     ]
 }
