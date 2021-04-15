@@ -25,11 +25,12 @@ execute as @e[tag=sp_warp_saver] at @s unless entity @s[predicate=strawberry:in_
 
 # On Success
 # execute as @e[nbt={CustomName:"{\"color\":\"yellow\",\"text\":\"Warp Placer\"}"}] at @s if entity @s[predicate=strawberry:in_overworld] run function strawberry:warp_placer/success
-execute as @e[tag=sp_warp_placer] at @s if entity @s[predicate=strawberry:in_overworld] run function strawberry:warp_placer/success
+execute as @e[tag=sp_warp_placer] at @s if entity @s[predicate=strawberry:in_overworld] if block ~ ~ ~ air run function strawberry:warp_placer/success
 
 # On Failure
 # execute as @e[nbt={CustomName:"{\"color\":\"yellow\",\"text\":\"Warp Placer\"}"}] at @s unless entity @s[predicate=strawberry:in_overworld] run function strawberry:warp_placer/failure
 execute as @e[tag=sp_warp_placer] at @s unless entity @s[predicate=strawberry:in_overworld] run function strawberry:warp_placer/failure
+execute as @e[tag=sp_warp_placer] at @s unless block ~ ~ ~ air run function strawberry:warp_placer/failure
 
 # Armor Stand
 execute as @e[tag=Warp,tag=Phase1] at @s run function strawberry:warp_placer/armor_stand
