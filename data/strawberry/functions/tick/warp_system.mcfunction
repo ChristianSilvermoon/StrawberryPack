@@ -49,6 +49,10 @@ execute as @e[tag=sp_warp_remover,tag=!Success] at @s unless entity @e[distance=
 # Armor Stand
 execute as @e[tag=Warp,tag=rm] at @s run function strawberry:warp_remover/armor_stand
 
+# Update pre-21w15a Armor Stand based warps to use the new Marker entities
+execute as @e[type=minecraft:armor_stand,tag=Warp,tag=!Phase1] at @s run summon minecraft:marker ~ ~ ~ {Tags:["Warp"]}
+execute as @e[type=minecraft:armor_stand,tag=Warp,tag=!Phase1] at @s run kill @s
+
 #-------------------------------------------------------
 # Book of Warping
 #-------------------------------------------------------
