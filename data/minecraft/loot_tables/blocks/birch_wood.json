@@ -40,7 +40,9 @@
                                         {
                                             "condition": "minecraft:match_tool",
                                             "predicate": {
-                                                "item": "minecraft:golden_axe"
+                                                "items": [
+																									"minecraft:golden_axe"
+																								]
                                             }
                                         },
                                         {

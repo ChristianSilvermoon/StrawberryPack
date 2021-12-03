@@ -64,7 +64,9 @@
                                         {
                                             "condition": "minecraft:match_tool",
                                             "predicate": {
-                                                "item": "minecraft:golden_shovel"
+                                                "items": [
+																									"minecraft:golden_shovel"
+																								]
                                             }
                                         }
                                     ]
