@@ -11,7 +11,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "sticky_piston"
+                        "item": "minecraft:sticky_piston"
                     }
                 ]
             }
