@@ -164,7 +164,19 @@
                     }
                 ]
             }
-        }
+        },
+				"has_pigstep": {
+						"trigger": "minecraft:inventory_changed",
+						"conditions": {
+								"items": [
+										{
+												"items": [
+													"minecraft:music_disc_pigstep"
+												]
+										}
+								]
+						}
+				}
     },
     "requirements": [
         [
@@ -202,6 +214,9 @@
         ],
         [
             "has_wait"
-        ]
+        ],
+				[
+					"has_pigstep"
+				]
     ]
 }
