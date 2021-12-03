@@ -19,7 +19,7 @@
         "has_the_recipe": {
             "trigger": "minecraft:recipe_unlocked",
             "conditions": {
-                "recipe": "strawverry:shortcut/chests"
+                "recipe": "strawberry:shortcut/chests"
             }
         }
     },
