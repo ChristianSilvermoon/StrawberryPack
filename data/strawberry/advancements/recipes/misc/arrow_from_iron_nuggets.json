@@ -12,7 +12,9 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:feather"
+                        "items": [
+													"minecraft:feather"
+												]
                     }
                 ]
             }
@@ -22,7 +24,9 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:iron_nugget"
+                        "items": [
+													"minecraft:iron_nugget"
+												]
                     }
                 ]
             }
@@ -32,7 +36,9 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:flint"
+                        "items": [
+													"minecraft:flint"
+												]
                     }
                 ]
             }

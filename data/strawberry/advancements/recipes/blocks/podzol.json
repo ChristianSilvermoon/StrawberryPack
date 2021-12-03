@@ -1,43 +1,47 @@
 {
-    "parent": "strawberry:recipes/root",
-    "rewards": {
-        "recipes": [
-            "strawberry:blocks/podzol"
-        ]
-    },
-    "criteria": {
-        "has_grass_block": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "item": "minecraft:grass_block"
-                    }
-                ]
-            }
-        },
-        "has_spruce_leaves": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "item": "minecraft:spruce_leaves"
-                    }
-                ]
-            }
-        },
-		"has_the_recipe": {
-			"trigger": "minecraft:recipe_unlocked",
-			"conditions": {
-				"recipe": "strawberry:blocks/podzol"
-			}
-		}
-    },
-    "requirements": [
-        [
-            "has_grass_block",
-            "has_spruce_leaves",
-			"has_the_recipe"
-        ]
+  "parent": "strawberry:recipes/root",
+  "rewards": {
+    "recipes": [
+      "strawberry:blocks/podzol"
     ]
+  },
+  "criteria": {
+    "has_grass_block": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:grass_block"
+            ]
+          }
+        ]
+      }
+    },
+    "has_spruce_leaves": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:spruce_leaves"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "strawberry:blocks/podzol"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_grass_block",
+      "has_spruce_leaves",
+      "has_the_recipe"
+    ]
+  ]
 }

@@ -11,7 +11,9 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:red_sand"
+                        "items": [
+													"minecraft:red_sand"
+												]
                     }
                 ]
             }
@@ -21,7 +23,9 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:white_dye"
+                        "item": [
+													"minecraft:white_dye"
+												]
                     }
                 ]
             }

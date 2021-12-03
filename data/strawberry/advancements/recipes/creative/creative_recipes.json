@@ -19,7 +19,9 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:command_block"
+                        "items": [
+													"minecraft:command_block"
+												]
                     }
                 ]
             }
@@ -29,7 +31,9 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:chain_command_block"
+                        "items": [
+													"minecraft:chain_command_block"
+												]
                     }
                 ]
             }
@@ -39,7 +43,9 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:repeating_command_block"
+                        "items": [
+													"minecraft:repeating_command_block"
+												]
                     }
                 ]
             }
@@ -49,7 +55,9 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:command_block_minecart"
+                        "items": [
+													"minecraft:command_block_minecart"
+												]
                     }
                 ]
             }
@@ -59,7 +67,9 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:structure_block"
+                        "items": [
+													"minecraft:structure_block"
+												]
                     }
                 ]
             }
@@ -69,7 +79,9 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:structure_void"
+                        "items": [
+													"minecraft:structure_void"
+												]
                     }
                 ]
             }
@@ -79,7 +91,9 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:barrier"
+                        "items": [
+													"minecraft:barrier"
+												]
                     }
                 ]
             }
@@ -89,7 +103,9 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:bedrock"
+                        "items": [
+													"minecraft:bedrock"
+												]
                     }
                 ]
             }

@@ -11,7 +11,9 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:dirt"
+                        "items": [
+													"minecraft:dirt"
+												]
                     }
                 ]
             }
@@ -21,7 +23,9 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:water_bucket"
+                        "items": [
+													"minecraft:water_bucket"
+												]
                     }
                 ]
             }
@@ -31,7 +35,9 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:sand"
+                        "items": [
+													"minecraft:sand"
+												]
                     }
                 ]
             }
