@@ -1,6 +1,22 @@
 # Change Log
 This is the Changelog for all [Releases of The Strawberry Pack](https://github.com/ChristianSilvermoon/StrawberryPack/releases)
 
+## v21.12.3 for Minecraft 1.17.x
+Finally released for 1.17.x
+
+#### Added
+- Deepslate Can be used to craft stone tools
+- Blocks added up to 21w11a Accounted for in Crawl System
+
+#### Changed
+- Can no longer warp between Overworld and Nether based on Y Coordinates
+- Warp System now uses the new Marker Entity instead of Armor Stands, should improve performance.
+
+#### Fixed
+- Hot Tools not working in 1.17.x
+- Advancements triggering incorrectly in 1.17.x
+- Problem with Chest Shortcut Recipe unlocking
+
 ## v21.6.14-rc1 For Minecraft 1.17.x
 This release is **NOT** fully tested and may not be fully stable!
 Use at your **OWN RISK**!
