@@ -1,6 +1,9 @@
 # Change Log
 This is the Changelog for all [Releases of The Strawberry Pack](https://github.com/ChristianSilvermoon/StrawberryPack/releases)
 
+## v21.12.3 for Minecraft 1.18.x
+*See changes for v21.12.3 for Mincraft 1.17.x*
+
 ## v21.12.3 for Minecraft 1.17.x
 Finally released for 1.17.x
 
