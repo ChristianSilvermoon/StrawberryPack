@@ -1,6 +1,11 @@
 # Change Log
 This is the Changelog for all [Releases of The Strawberry Pack](https://github.com/ChristianSilvermoon/StrawberryPack/releases)
 
+## v22.3.29 for Minecraft 1.18.x
+
+#### Fixed
+- Waxed Oxidized Cut Copper Stairs had not been rebalanced from 4 to 8.
+
 ## v21.12.3 for Minecraft 1.18.x
 *See changes for v21.12.3 for Mincraft 1.17.x*
 
