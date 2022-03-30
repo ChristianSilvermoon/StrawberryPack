@@ -2,5 +2,13 @@
 	"pack": {
 		"pack_format": 10,
 		"description": "§6Development Version for Minecraft 1.19.x§r\n§dTastier than vanilla"
+	},
+	"filter": {
+		"block": [
+			{
+				"namespace": "minecraft",
+				"path": "advancements/end/enter_end_gateway"
+			}
+		]
 	}
 }
